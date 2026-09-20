@@ -1,16 +1,39 @@
 # Apartment research submission
 
-Create a new issue with the title: Research publication: YYYY-MM-DD
+    Create a new issue with the title: Research publication: YYYY-MM-DD
 
-Apply the label: ready-for-import
+    Paste one complete publication JSON object below. It must match schemas/publication.schema.json and contain at least one apartment pair. Never include credentials, tokens, passwords, or personal information.
 
-Paste the complete publication JSON below. It must match schemas/publication.schema.json and the app's ApartmentPair contract. Never include credentials, tokens, passwords, or personal information.
+    Apply ready-for-import only after the JSON is complete and contains at least one valid pair. A no-match research report must not carry ready-for-import.
 
-```json
-{
-  "reviewedAt": "",
-  "disclaimer": "",
-  "pairs": [],
-  "budgetExceptions": []
-}
-```
+    ```json
+    {
+      "reviewedAt": "YYYY-MM-DD",
+      "disclaimer": "State unresolved research limitations and exclusions.",
+      "pairs": [
+        {
+          "id": "stable-pair-id",
+          "rank": 1,
+          "paperId": "first-listing-id",
+          "apartmentId": "second-listing-id",
+          "title": "Pair title",
+          "summary": "Evidence summary, including quoted rents and estimated distances.",
+          "status": "provisional",
+          "statusNote": "List every unconfirmed fact.",
+          "areas": ["Area one", "Area two"],
+          "beachDistanceMinutes": null,
+          "combinedMonthlyRentEur": 0,
+          "poolDistance": "Unknown or sourced/estimated distance",
+          "beachDistance": "Unknown or sourced/estimated distance",
+          "groceriesDistance": "Unknown or sourced/estimated distance",
+          "cafesDistance": "Unknown or sourced/estimated distance",
+          "pairWalkingDistance": "Estimated or verified distance",
+          "pairWalkingTime": "Estimated or verified walking time",
+          "paper": {},
+          "apartment": {}
+        }
+      ],
+      "budgetExceptions": []
+    }
+    ```
+    
