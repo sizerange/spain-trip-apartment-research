@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Apartment pair publication",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reviewedAt",
+    "disclaimer",
+    "pairs",
+    "budgetExceptions"
+  ],
+  "properties": {
+    "reviewedAt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "disclaimer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "description": "Must match the ApartmentPair contract served by the Alicante Rental Pairs API."
+      }
+    },
+    "budgetExceptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pairId",
+          "reason"
+        ],
+        "properties": {
+          "pairId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 20
+          }
+        }
+      }
+    }
+  }
+}
