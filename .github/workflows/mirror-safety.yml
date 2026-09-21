@@ -1,0 +1,156 @@
+name: Mirror safety
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  mirror-safety:
+    name: Mirror safety
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out source without saved credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Reject excluded files and test the path rules
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import pathlib
+          import re
+          import subprocess
+
+          blocked_dirs = {
+              'node_modules', 'bower_components', '.pnpm-store',
+              'dist', 'build', 'out', 'out-tsc', 'coverage', '.next',
+              '.nuxt', '.output', '.cache', '.local', '.turbo',
+              '.vercel', '.netlify', '.venv', 'venv', '__pycache__',
+              '.pytest_cache', '.mypy_cache', '.expo', '.expo-shared',
+              '.ssh', '.aws', '.azure', '.gcloud', 'tmp', 'temp',
+          }
+          blocked_names = {
+              '.envrc', '.netrc', '.git-credentials', 'credentials',
+              'credentials.json', 'credentials.yaml', 'credentials.yml',
+              'secrets.json', 'secrets.yaml', 'secrets.yml', 'secrets.toml',
+              'id_rsa', 'id_dsa', 'id_ecdsa', 'id_ed25519',
+          }
+          blocked_suffixes = (
+              '.pem', '.key', '.p12', '.pfx', '.jks', '.keystore',
+              '.sqlite', '.sqlite3', '.db', '.dump', '.log',
+              '.tsbuildinfo', '.pyc', '.zip', '.7z', '.tar', '.tar.gz',
+          )
+
+          def excluded(path):
+              parts = pathlib.PurePosixPath(path.replace('\\', '/').lower()).parts
+              if not parts:
+                  return False
+              name = parts[-1]
+              return (
+                  any(part in blocked_dirs for part in parts)
+                  or name in blocked_names
+                  or name == '.env' or name.startswith('.env.')
+                  or name.endswith('.env') or '.env.' in name
+                  or name.endswith(blocked_suffixes)
+                  or ('service-account' in name and name.endswith('.json'))
+                  or ('serviceaccount' in name and name.endswith('.json'))
+                  or ('.yarn' in parts and 'cache' in parts)
+              )
+
+          deny = [
+              '.env', 'artifacts/api-server/.env.production', '.env.example',
+              'config/prod.env', 'config/prod.env.bak', 'NODE_MODULES/a.js',
+              'artifacts/web/dist/index.html', 'build/app.js', '.cache/x',
+              '.local/state.json', 'keys/private.pem', 'credentials.json',
+              'nested/id_ed25519', '.aws/config', 'backup.sqlite3',
+              'logs/server.log', 'backup.tar.gz', 'nested/service-account.json',
+              '.yarn/cache/package.zip', 'lib/a.tsbuildinfo',
+          ]
+          allow = [
+              'package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', '.npmrc',
+              '.replit', '.replitignore', 'CHATGPT_HANDOFF.md',
+              'artifacts/web/src/vite-env.d.ts',
+              'lib/api-client-react/src/generated/endpoints.ts',
+              'artifacts/alicante-rental-pairs/public/alicante-pairs-terrain-map.png',
+              '.github/workflows/mirror-safety.yml', 'scripts/check-source.py',
+          ]
+          assert all(excluded(path) for path in deny), 'Path rejection self-test failed'
+          assert not any(excluded(path) for path in allow), 'Allowed-source self-test failed'
+
+          tracked = subprocess.check_output(['git', 'ls-files', '-z']).decode().split('\0')
+          paths = {path for path in tracked if path}
+          event = json.loads(pathlib.Path(os.environ['GITHUB_EVENT_PATH']).read_text())
+          base = event.get('pull_request', {}).get('base', {}).get('sha') or event.get('before')
+          if base and re.fullmatch('[0-9a-f]{40}', base) and base != '0' * 40:
+              introduced = subprocess.check_output([
+                  'git', 'log', '--format=', '--name-only', '-z',
+                  '--no-renames', '--diff-filter=ACMR', base + '..HEAD', '--',
+              ]).decode().split('\0')
+              paths.update(path.lstrip('\n') for path in introduced if path.strip('\n'))
+          bad = sorted(path for path in paths if excluded(path))
+          if bad:
+              print('Excluded paths detected (file contents are never printed):')
+              for path in bad:
+                  print(json.dumps(path))
+              raise SystemExit(1)
+          print(f'Path rules passed: {len(deny)} rejection tests, {len(allow)} allowed-source tests; {len(paths)} paths checked.')
+          PY
+
+      - name: Install checksum-pinned Gitleaks
+        shell: bash
+        run: |
+          curl --fail --silent --show-error --location \
+            https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz \
+            --output "$RUNNER_TEMP/gitleaks.tar.gz"
+          echo "551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb  $RUNNER_TEMP/gitleaks.tar.gz" | sha256sum --check --strict
+          tar -xzf "$RUNNER_TEMP/gitleaks.tar.gz" -C "$RUNNER_TEMP" gitleaks
+
+      - name: Test secret detection and scan history with redaction
+        shell: bash
+        run: |
+          cat > "$RUNNER_TEMP/mirror-gitleaks.toml" <<'TOML'
+          [extend]
+          useDefault = true
+          [[rules]]
+          id = "project-runtime-literal"
+          description = "Literal project runtime credential or publishable key"
+          regex = '''(?i)(?:APARTMENT_IMPORT_TOKEN|CLERK_PUBLISHABLE_KEY|CLERK_SECRET_KEY|SESSION_SECRET|VITE_CLERK_PUBLISHABLE_KEY)[ \t]*[=:][ \t]*["']?([a-zA-Z0-9_+/=-]{16,})'''
+          secretGroup = 1
+          [[rules]]
+          id = "clerk-key-literal"
+          description = "Clerk key literal"
+          regex = '''(?:pk|sk)_(?:test|live)_[a-zA-Z0-9_+/=-]{16,}'''
+          TOML
+          mkdir "$RUNNER_TEMP/mirror-scan-fixture"
+          python3 - <<'PY'
+          import os, pathlib
+          root = pathlib.Path(os.environ['RUNNER_TEMP']) / 'mirror-scan-fixture'
+          root.joinpath('synthetic.txt').write_text('CLERK_SECRET_KEY=' + 'sk_' + 'test_' + 'X' * 32)
+          PY
+          set +e
+          "$RUNNER_TEMP/gitleaks" dir "$RUNNER_TEMP/mirror-scan-fixture" \
+            --config "$RUNNER_TEMP/mirror-gitleaks.toml" --redact=100 --no-banner \
+            --log-level error --report-format json --report-path "$RUNNER_TEMP/fixture-findings.json"
+          scan_status=$?
+          set -e
+          test "$scan_status" -eq 1
+          python3 - <<'PY'
+          import json, os, pathlib
+          findings = json.loads((pathlib.Path(os.environ['RUNNER_TEMP']) / 'fixture-findings.json').read_text())
+          assert any(item['RuleID'] == 'project-runtime-literal' for item in findings), 'Secret self-test failed'
+          print('Synthetic secret detection self-test passed; no real credential was used.')
+          PY
+          touch "$RUNNER_TEMP/empty-ignore"
+          "$RUNNER_TEMP/gitleaks" git . --log-opts="--all" \
+            --config "$RUNNER_TEMP/mirror-gitleaks.toml" --redact=100 --no-banner \
+            --ignore-gitleaks-allow --gitleaks-ignore-path "$RUNNER_TEMP/empty-ignore" \
+            --max-decode-depth 2 --max-archive-depth 2
