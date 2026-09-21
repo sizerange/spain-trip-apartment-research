@@ -72,7 +72,7 @@ paths:
           description: Ranking order for the returned pairs.
           schema:
             type: string
-            enum: [rank, beach-distance]
+            enum: [rank, date-found, beach-distance]
             default: rank
       responses:
         "200":
