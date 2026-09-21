@@ -2,6 +2,8 @@
 
 Read this entire file before changing the project.
 
+For complete website editing or takeover, also read `CHATGPT_SITE_TAKEOVER.md`. The research repository alone does not currently contain the full Replit application.
+
 ## Non-negotiable safety boundary
 
 Do not modify, replace, remove, or reconfigure:
