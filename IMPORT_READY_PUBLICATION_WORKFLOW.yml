@@ -1,0 +1,44 @@
+name: Import ready apartment research
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: apartment-research-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Stockholm schedule
+        id: schedule
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [ "$(TZ=Europe/Stockholm date +%H:%M)" = "11:00" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check out queue tools
+        if: steps.schedule.outputs.run == 'true'
+        uses: actions/checkout@v4
+
+      - name: Import ready submissions
+        if: steps.schedule.outputs.run == 'true'
+        env:
+          APARTMENT_IMPORT_TOKEN: ${{ secrets.APARTMENT_IMPORT_TOKEN }}
+          APARTMENT_IMPORT_URL: https://pricey-bold-utility--yonis11.replit.app/api/apartment-pairs/import
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/import-ready-publication.mjs
