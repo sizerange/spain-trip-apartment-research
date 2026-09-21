@@ -61,6 +61,8 @@ The site presents complete apartment pairs. Every valid pair must be shown, even
   - `sunsea-13210-13248`
 - Every import is validated before it can replace the active publication. The importer refreshes the issue and retries once after a malformed submission.
 - If at least 90% of submitted pairs independently pass the full contract and publication checks, the valid pairs may be published and malformed pairs are discarded whole. Fields are never copied or merged between apartments.
+- Each nested apartment is also validated independently. A good apartment survives even when its proposed partner or pair wrapper is malformed, and appears in the site's “Valid apartments waiting for a match” pool.
+- Review that retained candidate pool before each research run so a previously valid apartment can be paired with a newly found match.
 - A still-unusable retry leaves the current live publication unchanged.
 - The import API enforces positive combined rent, rent arithmetic, matching outer and nested apartment IDs, distinct apartments, unique pair compositions, and a documented exception for totals above EUR 1,100.
 - Repository labels:
