@@ -4,15 +4,21 @@ Read this file, `CHATGPT_HANDOFF.md`, `replit.md`, and the relevant source files
 
 ## What ChatGPT can and cannot currently reach
 
-The GitHub repository `sizerange/spain-trip-apartment-research` currently contains the scheduled research/import system, its OpenAPI contract copy, and handoff documents. It does **not** currently contain the complete Replit application.
+The GitHub repository `sizerange/spain-trip-apartment-research` now contains the scheduled research/import system and a complete source mirror of the Replit application.
 
-ChatGPT can fully edit the application only after the Replit workspace source is mirrored to a GitHub repository that ChatGPT can access, or when ChatGPT is operating inside the Replit workspace with file, shell, workflow, database, and preview tools.
+ChatGPT may edit the complete source through GitHub. GitHub-only ChatGPT still cannot safely run Replit workflows, inspect the Replit preview, operate Replit databases or secrets, apply production migrations, or publish the application.
 
-Until that connection exists:
+Never claim that a GitHub-only change is live on Replit. Submit source changes through a focused branch or pull request, then complete Replit validation and publishing.
 
-- ChatGPT may edit research instructions, issue payloads, schemas, and GitHub Actions in the research repository.
-- ChatGPT may propose application patches, but it cannot safely apply, run, preview, migrate, or publish the complete site.
-- Never claim that a GitHub-only change is live on Replit.
+### Stable pre-takeover checkpoint
+
+The application state immediately before full-site ChatGPT access is tagged:
+
+```text
+pre-chatgpt-full-site-edit-2026-09-21
+```
+
+The tag exists both in the Replit Git history and in the GitHub repository. If later edits go badly, restore or compare against that tag rather than trying to reconstruct the previous state manually.
 
 ## Product and user intent
 
@@ -293,8 +299,8 @@ If ChatGPT works from GitHub:
 
 If ChatGPT works inside Replit with full tools, it may edit and validate directly while obeying this file and `CHATGPT_HANDOFF.md`.
 
-## Immediate prerequisite for full takeover
+## Full-takeover status
 
-Mirror the complete Replit project—not only the research automation files—to a GitHub repository connected to this Replit project and accessible to ChatGPT. Include source code, lockfiles, workspace configuration, and documentation. Exclude secrets, environment values, dependencies, generated build output, and private runtime data.
+The complete application source, lockfiles, workspace configuration, documentation, and required terrain-map asset are mirrored to GitHub. Secrets, environment values, dependencies, generated build output, private runtime data, and historical screenshots are excluded.
 
-Until that is done, ChatGPT can own daily apartment research but cannot truthfully or safely own the complete site implementation and deployment.
+ChatGPT can now own source-code editing through GitHub. Replit validation, database migration, preview review, and publishing remain required before any GitHub change is considered live.
