@@ -368,6 +368,12 @@ function getAllowedEconomyEmails(): Set<string> {
 }
 
 router.get("/economy", async (req, res): Promise<void> => {
+  res.set("Cache-Control", "private, no-store, max-age=0");
+  res.set("Pragma", "no-cache");
+  res.set("Expires", "0");
+  res.vary("Authorization");
+  res.vary("Cookie");
+
   const { userId } = getAuth(req);
   if (!userId) {
     res.status(401).json({ error: "Authentication required" });
