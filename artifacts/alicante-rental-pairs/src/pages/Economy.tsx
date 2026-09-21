@@ -75,6 +75,9 @@ function EconomyDashboard() {
       queryKey: ['/api/economy', userId ?? 'signed-out'],
       retry: false,
     },
+    request: {
+      cache: 'no-store',
+    },
   });
 
   if (!isLoaded || (isSignedIn && isLoading)) {
@@ -128,7 +131,9 @@ function EconomyDashboard() {
     return (
       <Alert variant="destructive" className="mt-8 border-destructive/30 bg-destructive/5 shadow-sm">
         {isUnauthorized ? <Lock className="h-5 w-5" /> : <ShieldAlert className="h-5 w-5" />}
-        <AlertTitle className="font-heading text-xl">Access Denied</AlertTitle>
+        <AlertTitle className="font-heading text-xl">
+          {isUnauthorized ? "Access Denied" : "Unable to load overview"}
+        </AlertTitle>
         <AlertDescription className="mt-2 text-sm leading-relaxed">
           {isUnauthorized 
             ? "Your account is not authorised to view this family workspace. This area is strictly restricted."
