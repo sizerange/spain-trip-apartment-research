@@ -59,8 +59,10 @@ The site presents complete apartment pairs. Every valid pair must be shown, even
 - The active publication contains two provisional Guardamar pairs, each totaling EUR 1,100/month:
   - `sunsea-13164-13210`
   - `sunsea-13210-13248`
-- Every import is validated before it can replace the active publication. Invalid imports leave the current live publication unchanged.
-- The import API enforces positive combined rent, rent arithmetic, distinct apartments, unique pair compositions, and a documented exception for totals above EUR 1,100.
+- Every import is validated before it can replace the active publication. The importer refreshes the issue and retries once after a malformed submission.
+- If at least 90% of submitted pairs independently pass the full contract and publication checks, the valid pairs may be published and malformed pairs are discarded whole. Fields are never copied or merged between apartments.
+- A still-unusable retry leaves the current live publication unchanged.
+- The import API enforces positive combined rent, rent arithmetic, matching outer and nested apartment IDs, distinct apartments, unique pair compositions, and a documented exception for totals above EUR 1,100.
 - Repository labels:
   - `ready-for-import`: complete submission awaiting validation and import.
   - `import-rejected`: submission failed parsing or publication validation.
@@ -76,10 +78,12 @@ For every candidate:
 4. If the site accepts a check-in but refuses the long checkout, say that precisely. Do not claim the full date range was accepted.
 5. Availability remains unknown unless the source returns an actual result for the requested stay.
 6. Record the advertised monthly price when available.
-7. If estimating rent, use current neighborhood comparables and explain that it is an estimate.
+7. If estimating rent, use current neighborhood comparables, give a midpoint and range, and label it `guesstimate`. A guessed rent must not be presented as quoted or used to silently qualify a pair under the EUR 1,100 limit.
 8. Confirm or estimate walking distance between the two map pins. Label map-pin routes as estimates, not verified door-to-door measurements.
 9. Preserve the original listing and photo-source links.
 10. Do not contact owners, book, or submit personal information.
+11. For missing numeric comparison facts where a defensible local average exists—such as size or walking distance—prefer a midpoint and range over zero or a blank. Include the word `guesstimate` in the displayed value or supporting note.
+12. Do not guesstimate exact-date availability or claim that a categorical amenity exists without source evidence.
 
 ## Pair construction rules
 
@@ -108,7 +112,7 @@ Do not run both apartments together with a pipe character in the rendered UI.
 
 Use short IDs such as `P-001`, not “Apartment P-001”. Do not use filler such as “advertiser states approximately”.
 
-Unknown facts must be stated honestly as “Not verified”, “Not stated”, or another precise explanation.
+Unknown facts must be stated honestly as “Not verified”, “Not stated”, or another precise explanation. Numeric unknowns should instead use a defensible midpoint and range when one can be researched, with a visible `guesstimate` label. This does not apply to exact availability, quoted-rent provenance, or whether an amenity exists.
 
 ## Pair separation
 
