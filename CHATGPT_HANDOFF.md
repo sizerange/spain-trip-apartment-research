@@ -24,10 +24,15 @@ The site presents complete apartment pairs. Every valid pair must be shown, even
 
 ## Source-of-truth files
 
-- Pair data and research copy: `artifacts/api-server/src/routes/apartment-pairs.ts`
+- Publication contract: `lib/api-spec/openapi.yaml`
+- Persistent publication table: `lib/db/src/schema/apartment-pair-publications.ts`
+- Import validation and public pair API: `artifacts/api-server/src/routes/apartment-pairs.ts`
 - Main pair presentation: `artifacts/alicante-rental-pairs/src/pages/Home.tsx`
 - Visual theme: `artifacts/alicante-rental-pairs/src/index.css`
 - Terrain relationship map: `artifacts/alicante-rental-pairs/public/alicante-pairs-terrain-map.png`
+- Scheduled-research repository: `sizerange/spain-trip-apartment-research`
+- Scheduled importer workflow: `.github/workflows/import-ready-publication.yml`
+- Scheduled importer script: `scripts/import-ready-publication.mjs`
 - App routing, authentication, and Economy navigation: leave unchanged
 - Economy content/data: may be updated only from new information explicitly provided by the user
 
@@ -49,9 +54,17 @@ The site presents complete apartment pairs. Every valid pair must be shown, even
 
 ## Current publication state
 
-All previous candidates were estimated at EUR 1,650–EUR 1,800 per pair and are filtered out of the public response. They remain in `candidatePairs` only as research history and must not appear on the site while above budget.
-
-The API publishes only candidates whose `combinedMonthlyRentEur` is at or below EUR 1,100.
+- The live API reads the newest active publication from persistent PostgreSQL. Built-in TypeScript candidates are only a fallback when no active database publication exists.
+- The first real scheduled-research submission was imported successfully from GitHub issue #3 on 21 September 2026.
+- The active publication contains two provisional Guardamar pairs, each totaling EUR 1,100/month:
+  - `sunsea-13164-13210`
+  - `sunsea-13210-13248`
+- Every import is validated before it can replace the active publication. Invalid imports leave the current live publication unchanged.
+- The import API enforces positive combined rent, rent arithmetic, distinct apartments, unique pair compositions, and a documented exception for totals above EUR 1,100.
+- Repository labels:
+  - `ready-for-import`: complete submission awaiting validation and import.
+  - `import-rejected`: submission failed parsing or publication validation.
+- Successful imports receive a result comment and the GitHub issue is closed.
 
 ## Apartment research rules
 
@@ -127,9 +140,14 @@ Do not put the line between the two apartments that belong to the same pair.
 - Keep visible photos clear. Never blur the fourth image or place the count over a photograph.
 - Aim for nine source photos per apartment: four visible and five in the gallery.
 - Choose representative photographs rather than marketing repetition:
-  - useful indoor overview,
-  - kitchen or living overview,
-  - exterior, garden, pool, terrace, or beach context when genuinely provided by the source.
+  - representative living or dining overview,
+  - balcony or terrace,
+  - outward view from the apartment,
+  - building exterior, entrance, courtyard, or street context,
+  - kitchen, bedroom, and bathroom where available.
+- Never fill the leading gallery with several angles of the same room or furniture.
+- The frontend prioritizes the first distinct living, balcony, view, exterior, street, kitchen, bedroom, and bathroom images before remaining source-order images.
+- Imports must contain 4–9 photos, no duplicate photo URLs, at least one balcony/view/exterior/courtyard/street image, and at least three distinct photo subjects identified by descriptive alt text.
 - Do not imply an amenity from an unrelated neighborhood photograph.
 - Keep source attribution in the full gallery.
 
@@ -155,13 +173,27 @@ Do not put the line between the two apartments that belong to the same pair.
 
 ## Daily morning refresh specification
 
-Selected scheduler: ChatGPT recurring task.
+The automation has two separate stages:
 
-Target schedule:
+1. ChatGPT recurring research task:
+   - Every day at 09:00 Europe/Stockholm.
+   - Reads this file and `lib/api-spec/openapi.yaml` from `sizerange/spain-trip-apartment-research`.
+   - Creates one GitHub issue containing exactly one fenced JSON publication.
+   - Applies `ready-for-import` only after the payload is complete.
+2. GitHub Actions importer:
+   - Intended import time: 11:00 Europe/Stockholm, allowing two hours for research.
+   - Workflow name: `Import ready apartment research`.
+   - Workflow path: `.github/workflows/import-ready-publication.yml`.
+   - GitHub cron runs at both 09:00 and 10:00 UTC and proceeds only when Stockholm local time is 11:00, covering daylight-saving changes.
+   - Calls the production import endpoint, which validates and atomically activates accepted data.
 
-- Every day at 09:00
-- Time zone: Europe/Stockholm
-- Cron expression when the scheduler uses local time: `0 9 * * *`
+Connection and naming notes:
+
+- GitHub owner: `sizerange`.
+- Research repository: `sizerange/spain-trip-apartment-research`.
+- Production import URL is configured through `APARTMENT_IMPORT_URL`.
+- Replit and GitHub Actions must hold the same `APARTMENT_IMPORT_TOKEN`; never put its value in issues, files, logs, or chat.
+- GitHub OAuth manages research issues. A GitHub App connection was added for repository/workflow administration.
 
 Each run should:
 
@@ -178,24 +210,21 @@ Each run should:
 
 ## Important scheduling limitation
 
-The current website is an Autoscale web deployment and its pair data is hardcoded in TypeScript. A Replit Scheduled Deployment cannot safely update that deployed source file because published filesystems are not persistent.
+The website and API remain an Autoscale web deployment. Scheduling is external: ChatGPT performs research and GitHub Actions invokes the importer. Do not add an in-process timer, `setInterval`, or development workflow.
 
-Do not create a fake timer, `setInterval`, or development workflow and call it a daily updater.
+The persistent PostgreSQL publication store, database-reading API, authenticated importer, GitHub issue queue, and controlled acceptance/rejection checks are complete. A real submission has also been imported successfully.
 
-Before enabling the real timer:
+As of 21 September 2026, final automatic-import activation still requires:
 
-1. Store published apartment and pair records in persistent PostgreSQL or another persistent store.
-2. Make the API read approved pair records from that store.
-3. Create a separate scheduled job that performs the refresh and writes validated records to the store.
-4. Configure that job for `0 9 * * *` in `Europe/Stockholm`.
-5. Keep the website/API deployment as a web deployment; the scheduled job must be separate.
-6. Verify one manual refresh before enabling the recurring schedule.
+1. Add the same rotated `APARTMENT_IMPORT_TOKEN` as a GitHub Actions repository secret.
+2. Republish the Replit app so production receives the rotated token.
+3. Run `Import ready apartment research` manually once and confirm success.
 
 ## Ready-to-use ChatGPT recurring-task prompt
 
-Use this prompt for a ChatGPT task scheduled every day at 09:00 Europe/Stockholm after persistent storage and repository access are connected:
+Use this prompt for the ChatGPT task scheduled every day at 09:00 Europe/Stockholm:
 
-> Refresh the Alicante Rental Pairs research. Read `CHATGPT_HANDOFF.md` first and obey every rule. Do not touch authentication, authorization, security middleware, secrets, the Economy page, or existing routes. Search for real seasonal or long-stay apartments suitable for 5 November 2026 through 28 April 2027. Prefer homes from about 30 m² when they reduce cost. The pair budget is EUR 1,100/month total soft maximum and may be uneven, such as EUR 500 + EUR 600. Only exceed it for an unusually strong pair and explain why. Build every valid pair combination, keep stable apartment identities, use attributable original links and representative real photos, update the terrain map when locations change, and label estimates and unconfirmed availability honestly. Run the frontend and API typechecks plus `git diff --check`. Publish only validated pair records.
+> Refresh the Alicante Rental Pairs research. Work in `sizerange/spain-trip-apartment-research` on `main`. Read `CHATGPT_HANDOFF.md`, `CHATGPT_RESEARCH_PROMPT.md`, and `lib/api-spec/openapi.yaml` first and obey every rule. Do not touch authentication, authorization, security middleware, secrets, the Economy page, or application routes. Search for real seasonal or long-stay apartments suitable for 5 November 2026 through 28 April 2027. Prefer homes from about 30 m² when they reduce cost. The pair budget is EUR 1,100/month total soft maximum and may be uneven, such as EUR 500 + EUR 600. Only exceed it for an unusually strong pair and provide a specific budget exception. Build every valid pair combination, preserve stable apartment identities, use attributable source links and genuinely varied original photos, and label estimates and unconfirmed availability honestly. Create one GitHub issue containing exactly one fenced JSON publication matching the API contract. Apply `ready-for-import` only when the publication is complete and contains at least one valid pair. Never call the production importer directly.
 
 ## Validation before finishing any update
 
@@ -207,4 +236,4 @@ pnpm --filter @workspace/api-server run typecheck
 git diff --check
 ```
 
-Restart the web and API workflows after code or data changes, inspect logs, and visually check desktop and mobile layouts.
+These commands apply to application-code changes in Replit, not normal ChatGPT research submissions. Normal research runs create a GitHub issue and leave validation and production activation to the importer.
