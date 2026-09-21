@@ -395,7 +395,12 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/ApartmentPair"
-      required: [reviewedAt, disclaimer, total, pairs]
+        availableApartments:
+          type: array
+          description: Independently valid apartments retained for possible future pairing.
+          items:
+            $ref: "#/components/schemas/ApartmentPairListing"
+      required: [reviewedAt, disclaimer, total, pairs, availableApartments]
     ApartmentPairBudgetException:
       type: object
       properties:
