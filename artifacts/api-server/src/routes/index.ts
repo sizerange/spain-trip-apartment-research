@@ -1,0 +1,12 @@
+import { Router, type IRouter } from "express";
+import healthRouter from "./health";
+import economyRouter from "./economy";
+import apartmentPairsRouter from "./apartment-pairs";
+
+const router: IRouter = Router();
+
+router.use(healthRouter);
+router.use(economyRouter);
+router.use(apartmentPairsRouter);
+
+export default router;

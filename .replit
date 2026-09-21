@@ -1,0 +1,32 @@
+modules = ["nodejs-24", "python-base-3.13", "postgresql-16"]
+
+[deployment]
+router = "application"
+deploymentTarget = "autoscale"
+
+[deployment.postBuild]
+args = ["pnpm", "store", "prune"]
+env = { "CI" = "true" }
+
+[workflows]
+runButton = "Project"
+
+[agent]
+stack = "PNPM_WORKSPACE"
+expertMode = true
+
+[postMerge]
+path = "scripts/post-merge.sh"
+timeoutMs = 20000
+
+[nix]
+channel = "stable-25_05"
+
+[userenv]
+
+[userenv.development]
+ECONOMY_ALLOWED_EMAILS = "yonis1@gmail.com,marja.mustonen@gmail.com"
+
+[userenv.shared]
+APARTMENT_IMPORT_URL = "https://pricey-bold-utility--yonis11.replit.app/api/apartment-pairs/import"
+GITHUB_RESEARCH_REPOSITORY = "sizerange/spain-trip-apartment-research"

@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Alicante Rental Pairs"
+description = "A mobile-friendly persistent shortlist for Wayne and his mother to compare pairs of furnished apartments on the Alicante coast for their November 2026 to April 2027 stay, with verified listing sources, attributable photos, walking distances, costs, availability, and direct original-listing links."
+version = "1.0.0"
+id = "artifacts/alicante-rental-pairs"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19625
+
+[services.development]
+run = "pnpm --filter @workspace/alicante-rental-pairs run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/alicante-rental-pairs", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/alicante-rental-pairs/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19625"
+BASE_PATH = "/"

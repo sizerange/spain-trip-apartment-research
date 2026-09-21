@@ -1,0 +1,4 @@
+- [One-off TypeScript validation](typescript-validation.md) — standalone `tsx` is unavailable; use project checks or the API package’s existing compiler for isolated assertions.
+- [Apartment photo diversity](apartment-photo-diversity.md) — lead galleries with distinct subjects, especially balcony, outward view, exterior, or street context.
+- [Daily apartment publishing](daily-apartment-publishing.md) — daily research enters through a GitHub issue queue; only the validated importer may activate production data.
+- [Guesstimate boundaries](guesstimate-boundaries.md) — use labeled ranges for useful numeric gaps, but never let guessed rent or availability silently qualify a pair.

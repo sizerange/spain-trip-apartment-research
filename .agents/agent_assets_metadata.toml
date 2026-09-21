@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "RSHA9prfg0_QM_tvC-jji"
+uri = "file://CHATGPT_HANDOFF.md"
+type = "text"
+title = "ChatGPT handoff — Alicante Rental Pairs"
+description = "Updated handoff with all apartment-pair rules, the 07:00 Europe/Stockholm recurring-task prompt, and permission for Economy content updates when you provide new information."
+logical_id = "1342d5ca-d081-4b8e-b026-fc202ce3882e"
+content_hash = "sha256:48d1070121a6c78bc655ecc647b31ae47394b6395f3f3d8c82fd21f35b72bfb3"
+size = 10002
+mtime_ms = 1789939447529
+storage_uri = "gcs://replit-rams-assets-kira/rams/assets/repl:62ad998a-1826-49a8-802c-2027ed0f8612/1342d5ca-d081-4b8e-b026-fc202ce3882e/0f155d28-2d68-455c-9774-f95abbed5075"
+storage_version_token = "1789939471699828"
+content_type = "text/markdown"

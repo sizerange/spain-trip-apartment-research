@@ -1,0 +1,108 @@
+```text
+Update the rental-listing display in my existing “Alicante Apartment Pairs” website.
+
+I want a visual shortlist of APARTMENT PAIRS—not a spreadsheet, a wall of text, or separate unrelated advertisements. Each card represents TWO different apartments: one for me and one for my mother.
+
+Only change the rental-card layout and presentation. Preserve the Economy numbers tab and other existing pages. DO NOT change authentication, account permissions or access controls.
+
+CARD LAYOUT
+
+Use this order for every pair:
+
+PAPER [stable pair number] — [Town / neighbourhood]
+Apartment [number]: [name] | Apartment [number]: [name]
+
+€[Price1] | €[Price2] per month
+[Size1] m² | [Size2] m²
+
+[Apartment 1 photo gallery] | [Apartment 2 photo gallery]
+
+Pool: [distance] metres away
+Beach: [distance] metres away
+Groceries: [distance] metres away
+Bars/cafés: [distance] metres away
+Other apartment of the pair: [distance] metres / [time] min walk
+
+[An actual, useful 1–2 paragraph summary of this pair for me and my mother.]
+
+[VIEW APARTMENT number] | [VIEW APARTMENT number]
+
+Last checked: [date]
+Availability: [accurate status for our working dates]
+
+
+VISUAL PRESENTATION
+
+Make the price, apartment numbers and photographs the most prominent parts.
+
+On desktop, put the two apartments side by side within the same pair card. Keep each apartment’s name, number, price, size and photographs clearly associated with it.
+
+On a phone, adapt the layout without tiny text or horizontal scrolling. The photo sections can stack, but the two apartments must still clearly belong to ONE pair. Keep the paired prices and sizes easy to compare.
+
+Use large readable text, comfortable spacing, clear headings and obvious buttons. Avoid a dense comparison table. Do not hide the essential information behind accordions or require opening a detail page just to see the photographs and rent.
+
+
+PHOTOGRAPHS ARE ESSENTIAL
+
+Display actual images—not the words “[REAL PHOTO]” or a list of image URLs.
+
+Aim for 2–4 attributable photographs per apartment, obtained from that apartment’s original listing or agent page. Prefer an indoor overview and an exterior, terrace, building or pool photograph.
+
+Show at least two thumbnails per apartment directly on the card when available. Clicking a photograph should open a larger gallery, with any additional images accessible there.
+
+AI-edited photographs ARE ALLOWED when they come from the correct listing. A small “Listing photo — AI-edited” label is sufficient when that status is known. Do not exclude them just because Idealista marks them AI-edited.
+
+Never generate, substitute or borrow photographs from another apartment. Never use stock interiors as if they show the advertised property.
+
+If only one photograph is available, show it. If no image can be retrieved, show “Photos unavailable — view original listing” with a working link. Do not discard an otherwise useful pair because photos are missing.
+
+Retain image attribution and source links. Handle broken image links gracefully.
+
+
+DISTANCES
+
+Distances should represent walking routes, not straight-line measurements.
+
+Use a shared approximate distance or range when both apartments are genuinely similarly placed, for example:
+Beach: approximately 200–300 metres away.
+
+When distances differ meaningfully, show:
+Beach: Apartment 13: 200 m | Apartment 14: 650 m.
+
+The “Other apartment of the pair” row must show the walking distance and time BETWEEN the two homes.
+
+Use “Not verified” or “Not stated” for missing information rather than guessing. Clearly label advertiser-provided distances that have not been checked as walking routes.
+
+Do not imply both apartments can use the same private pool merely because they are nearby. Note important pool-access restrictions or winter closure.
+
+
+SUMMARY
+
+Write the actual summary, not “summary goes here”.
+
+In 1–2 short paragraphs, explain why this pair suits us, combined monthly base rent, separate-building independence, everyday comfort, important costs and trade-offs, and whether both apartments cover our entire stay.
+
+Our preferences:
+• Approximately €600/month PER APARTMENT, with worthwhile cheaper options preferred.
+• Smaller apartments are fine; price and everyday comfort matter more than size.
+• Prefer separate buildings.
+• About 20 minutes walking between apartments is a SOFT maximum.
+• Convenient groceries, cafés and beach and/or pool access.
+• Avoid areas with credible evidence of serious crime problems; never invent safety assurances.
+• Working stay: 5 November 2026–28 April 2027.
+
+An advertised winter rental season is NOT confirmed availability for our exact dates. Use a clear “Provisional — exact dates unconfirmed” status unless both homes have supporting exact-date evidence.
+
+Keep unknown utilities, fees and deposits visibly unknown—not zero. Keep private family financial details off the rental cards.
+
+
+LINKS AND DATA
+
+Each “VIEW APARTMENT [number]” button must open that specific apartment’s original listing in a new tab.
+
+Preserve existing apartment and pair numbers. Do not renumber homes when sorting or filtering.
+
+Use existing real listing data. The earlier €525 / €575 example, apartment sizes and distance figures were layout examples, NOT verified advertisements. Do not publish those example values as real listings or invent facts to fill empty fields.
+
+Apply this layout consistently to existing and future apartment pairs. Keep this change focused on making the advertisements readable, visual and easy for us to compare.
+```
