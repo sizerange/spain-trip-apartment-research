@@ -285,8 +285,8 @@ Never construct a production URL from a development domain.
 
 If ChatGPT works from GitHub:
 
-1. Work in a repository containing the complete Replit monorepo.
-2. Create a focused branch.
+1. Work in `sizerange/spain-trip-apartment-research`, which contains the complete Replit source mirror.
+2. Use the dedicated `chatgpt-site-edits` branch. Do not commit application edits directly to `main`.
 3. Make and validate the change.
 4. Open a pull request with:
    - user-visible summary
