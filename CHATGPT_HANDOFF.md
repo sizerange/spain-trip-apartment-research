@@ -2,7 +2,7 @@
 
 Read this entire file before changing the project.
 
-For complete website editing or takeover, also read `CHATGPT_SITE_TAKEOVER.md`. The research repository alone does not currently contain the full Replit application.
+For complete website editing or takeover, also read `CHATGPT_SITE_TAKEOVER.md`. The repository now contains a full application-source mirror, but GitHub-only changes still require Replit validation and publishing.
 
 ## Non-negotiable safety boundary
 
