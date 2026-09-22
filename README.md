@@ -5,9 +5,9 @@ This private repository is the handoff point between scheduled ChatGPT apartment
 ## Current automation
 
 1. ChatGPT researches listings every day at 09:00 Europe/Stockholm.
-2. It reads `CHATGPT_HANDOFF.md` and the publication contract, then creates a GitHub issue containing one complete JSON publication.
+2. It reads `CHATGPT_HANDOFF.md` and the publication contract, then creates a GitHub issue containing either the complete JSON publication or a pinned research-file descriptor. See [the research-file workflow](PUBLICATION_FILE_WORKFLOW.md).
 3. Complete submissions receive `ready-for-import`.
-4. GitHub Actions workflow `Import ready apartment research` runs at 11:00 Europe/Stockholm, allowing two hours for research.
+4. GitHub Actions workflow `Import ready apartment research` starts when `ready-for-import` is applied, with an intended 11:00 Europe/Stockholm fallback and manual dispatch. Delayed scheduled runs remain eligible.
 5. `scripts/import-ready-publication.mjs` submits queued publications to the authenticated production import API.
 6. The API validates and atomically stores accepted publications in PostgreSQL. Invalid submissions leave the current live publication unchanged and receive `import-rejected`.
 

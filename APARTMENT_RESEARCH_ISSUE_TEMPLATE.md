@@ -36,4 +36,7 @@
       "budgetExceptions": []
     }
     ```
-    
+
+# Large publications
+
+Use `PUBLICATION_FILE_WORKFLOW.md` when the full payload approaches the issue-body limit. Store the complete validated publication in `research/publications/` and use the preparation helper's single fenced JSON descriptor instead of the inline example below. Do not omit pairs or photos to fit. The receiving API must be republished with the larger import limit before activating this format.

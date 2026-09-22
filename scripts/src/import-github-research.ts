@@ -1,10 +1,13 @@
 import { ReplitConnectors } from "@replit/connectors-sdk";
+import { PublicationInputError, resolvePublication } from "./publication-input.mjs";
 
 type GitHubIssue = {
   number: number;
   title: string;
   body: string | null;
   pull_request?: unknown;
+  state: string;
+  labels: { name: string }[];
 };
 
 type ImportResult = {
@@ -32,17 +35,7 @@ if (!importToken) {
 
 const requiredImportUrl: string = importUrl;
 const requiredImportToken: string = importToken;
-
-function extractPublication(body: string | null): unknown {
-  if (!body) throw new Error("Issue body is empty");
-
-  const fencedJson = body.match(/```json\s*([\s\S]*?)\s*```/i);
-  if (!fencedJson?.[1]) {
-    throw new Error("Issue must contain one fenced json block");
-  }
-
-  return JSON.parse(fencedJson[1]);
-}
+const requiredRepository: string = repository;
 
 async function submitPublication(publication: unknown): Promise<Response> {
   return fetch(requiredImportUrl, {
@@ -146,12 +139,16 @@ async function run(): Promise<void> {
   for (const issue of submissions) {
     let publication: unknown;
     try {
-      publication = extractPublication(issue.body);
-    } catch {
+      const currentResponse = await githubRequest(connectors, `/repos/${repository}/issues/${issue.number}`);
+      const current = (await currentResponse.json()) as GitHubIssue;
+      if (current.state !== "open" || !current.labels.some(label => label.name === readyLabel)) continue;
+      publication = await resolvePublication(current.body, requiredRepository, (path, init) => connectors.proxy("github", path, init));
+    } catch (error) {
+      if (!(error instanceof PublicationInputError)) throw error;
       await rejectIssue(
         connectors,
         issue,
-        "the issue does not contain valid JSON in a fenced json block.",
+        error.message,
       );
       rejected += 1;
       continue;
@@ -165,10 +162,12 @@ async function run(): Promise<void> {
         `/repos/${repository}/issues/${issue.number}`,
       );
       const refreshedIssue = (await refreshedIssueResponse.json()) as GitHubIssue;
+      if (refreshedIssue.state !== "open" || !refreshedIssue.labels.some(label => label.name === readyLabel)) continue;
       try {
-        publication = extractPublication(refreshedIssue.body);
+        publication = await resolvePublication(refreshedIssue.body, requiredRepository, (path, init) => connectors.proxy("github", path, init));
         importResponse = await submitPublication(publication);
-      } catch {
+      } catch (error) {
+        if (!(error instanceof PublicationInputError)) throw error;
         // The normal rejection path below preserves the current publication.
       }
     }

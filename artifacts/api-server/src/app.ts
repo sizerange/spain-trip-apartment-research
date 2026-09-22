@@ -5,6 +5,7 @@ import { clerkMiddleware } from "@clerk/express";
 import { publishableKeyFromHost } from "@clerk/shared/keys";
 import router from "./routes";
 import { logger } from "./lib/logger";
+import { configureJsonBodyParsing } from "./lib/json-body-parsing";
 import {
   CLERK_PROXY_PATH,
   clerkProxyMiddleware,
@@ -36,7 +37,7 @@ app.use(
 app.use(CLERK_PROXY_PATH, clerkProxyMiddleware());
 
 app.use(cors({ credentials: true, origin: true }));
-app.use(express.json());
+configureJsonBodyParsing(app);
 app.use(express.urlencoded({ extended: true }));
 
 app.use(

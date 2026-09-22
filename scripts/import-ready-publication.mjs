@@ -1,3 +1,5 @@
+import { PublicationInputError, resolvePublication } from "./src/publication-input.mjs";
+
 const readyLabel = "ready-for-import";
 const rejectedLabel = "import-rejected";
 const repository = process.env.GITHUB_REPOSITORY;
@@ -23,13 +25,6 @@ async function github(path, init = {}) {
     throw new Error("GitHub request failed (" + response.status + "): " + path);
   }
   return response;
-}
-
-function extractPublication(body) {
-  if (!body) throw new Error("Issue body is empty");
-  const match = body.match(/```json\s*([\s\S]*?)\s*```/i);
-  if (!match?.[1]) throw new Error("Issue must contain one fenced json block");
-  return JSON.parse(match[1]);
 }
 
 async function ensureLabel(name, color, description) {
@@ -87,8 +82,14 @@ let rejected = 0;
 for (const issue of issues) {
   let publication;
   try {
-    publication = extractPublication(issue.body);
+    // Re-read immediately before import so a removed ready label is respected.
+    const refreshed = await github("/repos/" + repository + "/issues/" + issue.number);
+    if (!refreshed.ok) throw new Error("Unable to refresh queued issue");
+    const current = await refreshed.json();
+    if (current.state !== "open" || !current.labels.some(label => label.name === readyLabel)) continue;
+    publication = await resolvePublication(current.body, repository, github);
   } catch (error) {
+    if (!(error instanceof PublicationInputError)) throw error;
     await reject(issue, error instanceof Error ? error.message : "invalid JSON");
     rejected += 1;
     continue;
