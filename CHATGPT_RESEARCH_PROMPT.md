@@ -2,12 +2,13 @@
 
 Run daily at 09:00 Europe/Stockholm.
 
-Work only in `sizerange/spain-trip-apartment-research` on the `main` branch. Before researching, read:
+Read current rules from `main` in `sizerange/spain-trip-apartment-research`. Commit research data files on a dedicated research branch; do not edit application code or write directly to protected `main`. Before researching, read:
 
 1. `CHATGPT_HANDOFF.md`
 2. `lib/api-spec/openapi.yaml`
 3. `schemas/publication.schema.json`
 4. `APARTMENT_RESEARCH_ISSUE_TEMPLATE.md`
+5. `PUBLICATION_FILE_WORKFLOW.md`
 
 Research two separate long-stay apartments for approximately 5 November 2026 through 28 April 2027 in Alicante or the agreed nearby search area. The combined monthly soft maximum is EUR 1,100. Prefer smaller homes from around 30 square metres when they reduce cost. Never contact owners, submit personal information, expose credentials, edit application source, or call the production importer directly.
 
@@ -34,8 +35,8 @@ Research two separate long-stay apartments for approximately 5 November 2026 thr
 
 ## Submission
 
-Create one GitHub issue with the title `Research publication: YYYY-MM-DD`. Include exactly one complete fenced `json` object matching the API contract and `schemas/publication.schema.json`.
+Create one GitHub issue with the title `Research publication: YYYY-MM-DD`. Include exactly one fenced `json` object: either the complete publication matching the API contract and `schemas/publication.schema.json`, or a pinned `publicationFile` descriptor generated according to `PUBLICATION_FILE_WORKFLOW.md`. Prefer a research file when the full publication approaches GitHub's body limit; never omit pairs to fit an issue. Validate the complete referenced publication before applying the ready label.
 
 Apply `ready-for-import` only when the publication contains at least one valid pair. If no pair qualifies, create an informational issue without `ready-for-import` and explain the result. Never submit an empty publication to the importer.
 
-The GitHub Actions workflow `Import ready apartment research` runs at 11:00 Europe/Stockholm and handles validation and publication. Invalid submissions receive `import-rejected` and do not change the live site.
+The GitHub Actions workflow `Import ready apartment research` starts when the ready label is applied, with an intended 11:00 Europe/Stockholm fallback and manual dispatch. It handles validation and publication. Invalid submissions receive `import-rejected` and do not change the live site.

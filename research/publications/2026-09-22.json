@@ -1,0 +1,2927 @@
+{
+  "reviewedAt": "2026-09-22",
+  "disclaimer": "Requested stay: 5 November 2026 to 28 April 2027. Quoted base rents exclude unresolved bills, deposits and fees. Source facts are advertised, not inspected; only a complete-stay search result confirms source availability. All map distances are guesstimates. No owners contacted or bookings made.",
+  "pairs": [
+    {
+      "id": "alegria-490846-500866",
+      "rank": 1,
+      "paperId": "P-490846",
+      "apartmentId": "P-500866",
+      "title": "PAPER 003 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 900,
+      "poolDistance": "P-490846: Not listed; access unconfirmed.\n\nP-500866: Not listed; access unconfirmed.",
+      "beachDistance": "P-490846: Advertised: Los Locos300m,Del Cura500m\n\nP-500866: Advertised: Del Cura200m",
+      "groceriesDistance": "P-490846: Advertised: 150m\n\nP-500866: Advertised: Masymas 60m",
+      "cafesDistance": "P-490846: guesstimate midpoint 150 m (range 50-250 m)\n\nP-500866: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 400 m (range 250-550 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-490846",
+        "displayName": "P-490846 - Alegria ID 45",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 33,
+        "monthlyRentEur": 400,
+        "furnished": true,
+        "availabilityStatus": "confirmed",
+        "availabilityNote": "On 22 September 2026, the original listing's search returned Available after accepting check-in 05/11/2026 and check-out 28/04/2027 with one adult selected; EUR 400/month remained displayed. This confirms the source's complete-stay availability result at checking time, not a reservation or binding all-in offer. The furnished studio has no separate bedroom. Water, electricity, gas if applicable, internet, final cleaning and deposit are extra; the feature table quotes EUR 80 final cleaning, while internet inclusion conflicts with the description. Other amounts and contract terms remain unverified. Also appears in PAPER 003, 004, 006, 009, 014, 017.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292823ffe26d55df85195e2de502106d5200a4.jpg",
+            "alt": "Outward street view across the neighbouring facade and road crossing.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292820e3510cba09d7d0ceda7028a7067ce5b7.jpg",
+            "alt": "Living and dining room with orange sofa and blue armchair.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928223dd7d0bfb7c9bfa8b91d72ac558f6bbc.jpg",
+            "alt": "Kitchen counter, refrigerator, hob and blue tile border.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292822ed3e6cf54efeb50f66403fbd6c7f5dc9.jpg",
+            "alt": "Bathroom basin, toilet and bathtub with shower curtain.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292822f1e99d564a5918f2d27f5fb2e7989ca4.jpg",
+            "alt": "Glazed balcony with chairs and yellow curtains.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928245ce29aae059c18361b717534265cddb8.jpg",
+            "alt": "Communal stair landing and lift door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928225bf848c55d515b315e0f6faa052246fd.jpg",
+            "alt": "Entrance hallway with mirror and storage.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292823c774edf7bdb8abbc1b591599ae8a9683.jpg",
+            "alt": "Kitchen with washing machine and cooking area.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/171829282300b3e9efc8ad59b5000935471fa2cb57.jpg",
+            "alt": "Outward street view in the other direction, with green awning.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-500866",
+        "displayName": "P-500866 - Alegria ID 105",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 38,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Checked 22 September 2026. The date fields accepted 05/11/2026 and 28/04/2027, but Search returned an error saying the number of occupants exceeds the maximum permitted while one adult was selected. No usable complete-stay availability result was obtained; availability remains unknown. The furnished studio advert quotes EUR 500/month and has no separate bedroom. Utilities, internet, final cleaning and deposit are extra; amounts and full-stay contract price remain unverified. The description charges utilities/internet/cleaning separately while some feature fields say included; treat inclusion as unresolved. Also appears in PAPER 003, 005, 007, 015, 018.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440089eae1ef60492d0a6d4494ee7cf13bba03.jpg",
+            "alt": "Outdoor balcony with white balustrade and street view.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008762c60a036081733cf607c755de0e38f3.jpg",
+            "alt": "Studio living and dining area facing the balcony door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088650ade000393744d443b1a5cf2c2df67.jpg",
+            "alt": "Kitchen with oven, hob and red trim.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008824085648c19881a5ab35e75305554a3d.jpg",
+            "alt": "Bathroom with bathtub, shower and basin.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088f6c125176688dca66ebff69f6f6398f8.jpg",
+            "alt": "Building entrance hall and glass door toward the street.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088768f9ad5233c884740ec2b41390b3f53.jpg",
+            "alt": "Dining table beside refrigerator and microwave.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440087af5345c7728352e9a4ff82f05e414199.jpg",
+            "alt": "Studio overview with wardrobe, kitchen and entrance door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008913ab1a3afa83ace7f41a7912bed6bc10.jpg",
+            "alt": "Entrance door and mirror beside the kitchen.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "alegria-490846-500880",
+      "rank": 2,
+      "paperId": "P-490846",
+      "apartmentId": "P-500880",
+      "title": "PAPER 004 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Same agency pin; separate references/floors/interiors support distinct units, entrances unconfirmed.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 900,
+      "poolDistance": "P-490846: Not listed; access unconfirmed.\n\nP-500880: Not listed; access unconfirmed.",
+      "beachDistance": "P-490846: Advertised: Los Locos300m,Del Cura500m\n\nP-500880: Advertised: beach200m; other text300-500m",
+      "groceriesDistance": "P-490846: Advertised: 150m\n\nP-500880: guesstimate midpoint 150 m (range 50-250 m)",
+      "cafesDistance": "P-490846: guesstimate midpoint 150 m (range 50-250 m)\n\nP-500880: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 200 m (range 50-350 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-490846",
+        "displayName": "P-490846 - Alegria ID 45",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 33,
+        "monthlyRentEur": 400,
+        "furnished": true,
+        "availabilityStatus": "confirmed",
+        "availabilityNote": "On 22 September 2026, the original listing's search returned Available after accepting check-in 05/11/2026 and check-out 28/04/2027 with one adult selected; EUR 400/month remained displayed. This confirms the source's complete-stay availability result at checking time, not a reservation or binding all-in offer. The furnished studio has no separate bedroom. Water, electricity, gas if applicable, internet, final cleaning and deposit are extra; the feature table quotes EUR 80 final cleaning, while internet inclusion conflicts with the description. Other amounts and contract terms remain unverified. Also appears in PAPER 003, 004, 006, 009, 014, 017.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292823ffe26d55df85195e2de502106d5200a4.jpg",
+            "alt": "Outward street view across the neighbouring facade and road crossing.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292820e3510cba09d7d0ceda7028a7067ce5b7.jpg",
+            "alt": "Living and dining room with orange sofa and blue armchair.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928223dd7d0bfb7c9bfa8b91d72ac558f6bbc.jpg",
+            "alt": "Kitchen counter, refrigerator, hob and blue tile border.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292822ed3e6cf54efeb50f66403fbd6c7f5dc9.jpg",
+            "alt": "Bathroom basin, toilet and bathtub with shower curtain.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292822f1e99d564a5918f2d27f5fb2e7989ca4.jpg",
+            "alt": "Glazed balcony with chairs and yellow curtains.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928245ce29aae059c18361b717534265cddb8.jpg",
+            "alt": "Communal stair landing and lift door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928225bf848c55d515b315e0f6faa052246fd.jpg",
+            "alt": "Entrance hallway with mirror and storage.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292823c774edf7bdb8abbc1b591599ae8a9683.jpg",
+            "alt": "Kitchen with washing machine and cooking area.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/171829282300b3e9efc8ad59b5000935471fa2cb57.jpg",
+            "alt": "Outward street view in the other direction, with green awning.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-500880",
+        "displayName": "P-500880 - Alegria ID 107",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 32,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Checked 22 September 2026. The date fields accepted 05/11/2026 and 28/04/2027, but Search returned an error saying the number of occupants exceeds the maximum permitted while one adult was selected. No usable complete-stay availability result was obtained; availability remains unknown. The furnished studio advert quotes EUR 500/month and has no separate bedroom. Utilities, internet, final cleaning and deposit are extra; amounts and full-stay contract price remain unverified. The description charges utilities/internet/cleaning separately while some feature fields say included; treat inclusion as unresolved. Also appears in PAPER 004, 005, 008, 016, 019.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/177883740217aec872d2c8ccc91f6df760dda2013c.jpg",
+            "alt": "Building exterior with pink and cream walls and green balconies.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373971bc4f4bf49d0e37f1a14358fc7b6dc33.jpg",
+            "alt": "Glazed balcony with small table, chairs and white curtains.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373946648bce995523a2c06d6d40416ee411c.jpg",
+            "alt": "Studio living area with grey sofa and wooden storage.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/177883739694fc6b1b4d8b92530ab27ad8bd62943c.jpg",
+            "alt": "Kitchen with white cabinets, oven and washing machine.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837400e8fb7ed8a5c6c6c666bd07b9db82d128.jpg",
+            "alt": "Bathroom basin, towels and shelves.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17254425046112273ea76a312368aa8d18bc1f2ca7.jpg",
+            "alt": "Outward street view toward neighbouring facades and the road.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837400fb118e3f24c98a3b65f29542b9153c88.jpg",
+            "alt": "Entrance hallway and adjacent bathroom doorway.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837401bc24238d8652d1b4e151bb933d707fdb.jpg",
+            "alt": "Communal stair landing and lift.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373951bcce8544c52097005e5d5b5ce329356.jpg",
+            "alt": "Living and dining area with table and kitchen opening.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-490846-500834",
+      "rank": 3,
+      "paperId": "P-490846",
+      "apartmentId": "P-500834",
+      "title": "PAPER 017 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos",
+        "Torrevieja Los Gases"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 900,
+      "poolDistance": "P-490846: Not listed; access unconfirmed.\n\nP-500834: Communal on site; winter/guest access unknown",
+      "beachDistance": "P-490846: Advertised: Los Locos300m,Del Cura500m\n\nP-500834: Advertised: 500m",
+      "groceriesDistance": "P-490846: Advertised: 150m\n\nP-500834: Advertised: 100m",
+      "cafesDistance": "P-490846: guesstimate midpoint 150 m (range 50-250 m)\n\nP-500834: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 400 m (range 200-600 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-490846",
+        "displayName": "P-490846 - Alegria ID 45",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 33,
+        "monthlyRentEur": 400,
+        "furnished": true,
+        "availabilityStatus": "confirmed",
+        "availabilityNote": "On 22 September 2026, the original listing's search returned Available after accepting check-in 05/11/2026 and check-out 28/04/2027 with one adult selected; EUR 400/month remained displayed. This confirms the source's complete-stay availability result at checking time, not a reservation or binding all-in offer. The furnished studio has no separate bedroom. Water, electricity, gas if applicable, internet, final cleaning and deposit are extra; the feature table quotes EUR 80 final cleaning, while internet inclusion conflicts with the description. Other amounts and contract terms remain unverified. Also appears in PAPER 003, 004, 006, 009, 014, 017.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292823ffe26d55df85195e2de502106d5200a4.jpg",
+            "alt": "Outward street view across the neighbouring facade and road crossing.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292820e3510cba09d7d0ceda7028a7067ce5b7.jpg",
+            "alt": "Living and dining room with orange sofa and blue armchair.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928223dd7d0bfb7c9bfa8b91d72ac558f6bbc.jpg",
+            "alt": "Kitchen counter, refrigerator, hob and blue tile border.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292822ed3e6cf54efeb50f66403fbd6c7f5dc9.jpg",
+            "alt": "Bathroom basin, toilet and bathtub with shower curtain.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292822f1e99d564a5918f2d27f5fb2e7989ca4.jpg",
+            "alt": "Glazed balcony with chairs and yellow curtains.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928245ce29aae059c18361b717534265cddb8.jpg",
+            "alt": "Communal stair landing and lift door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928225bf848c55d515b315e0f6faa052246fd.jpg",
+            "alt": "Entrance hallway with mirror and storage.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292823c774edf7bdb8abbc1b591599ae8a9683.jpg",
+            "alt": "Kitchen with washing machine and cooking area.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/171829282300b3e9efc8ad59b5000935471fa2cb57.jpg",
+            "alt": "Outward street view in the other direction, with green awning.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-500834",
+        "displayName": "P-500834 Alegria ID 101",
+        "area": "Torrevieja Los Gases",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 47,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "confirmed",
+        "availabilityNote": "On 22 September 2026, the original listing search returned Available for check-in 05/11/2026 and check-out 28/04/2027 with one adult; EUR 500/month remained displayed. This confirms source availability at checking time, not a booking or binding all-in offer. Furnished studio with sofa beds, third floor with lift, air conditioning, electric heating and communal pool. Utilities, internet, cleaning and deposit extra; internet inclusion conflicts with the feature table. No pets or smoking. Winter pool and partner guest access unknown. Map location is a guesstimate neighborhood anchor near Los Gases/Galeon, with approximately 150 m location uncertainty, not a verified entrance. Also appears in PAPER 017, 018, 019, 020, 021.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+        "photoAttribution": "Alegria",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396603efdcc4010db180befb5b9bcb9aad03a3.jpg",
+            "alt": "Communal courtyard pool viewed from the apartment balcony",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396604cbd23cca48de3dac81179daa6d0b5d50.jpg",
+            "alt": "Studio living room with blue sofas, armchair and balcony doors",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396604fb20b0130e81a49014bfd7636a6a3625.jpg",
+            "alt": "Yellow-tiled bathroom with shower, washing machine and basin",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/17253966056edc3f40c4f2e7ffb3bcf984036708a3.jpg",
+            "alt": "White fitted kitchen with ceramic hob, refrigerator and small dining table",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396605aff5f8c3d35f9a6629689b0f24591436.jpg",
+            "alt": "Glazed balcony with blue patterned curtains and outdoor chairs",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396603f1876210bf356451172ae6de607bba13.jpg",
+            "alt": "Entrance hallway with mirror and blue trim beside the kitchen",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-490846-112600022",
+      "rank": 4,
+      "paperId": "P-490846",
+      "apartmentId": "P-112600022",
+      "title": "PAPER 006 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos",
+        "Torrevieja Los Locos"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 930,
+      "poolDistance": "P-490846: Not listed; access unconfirmed.\n\nP-112600022: Not listed; access unconfirmed.",
+      "beachDistance": "P-490846: Advertised: Los Locos300m,Del Cura500m\n\nP-112600022: Advertised: 50m; route guesstimate midpoint 100 m (range 50-150 m)",
+      "groceriesDistance": "P-490846: Advertised: 150m\n\nP-112600022: guesstimate midpoint 300 m (range 150-450 m)",
+      "cafesDistance": "P-490846: guesstimate midpoint 150 m (range 50-250 m)\n\nP-112600022: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 500 m (range 350-650 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-490846",
+        "displayName": "P-490846 - Alegria ID 45",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 33,
+        "monthlyRentEur": 400,
+        "furnished": true,
+        "availabilityStatus": "confirmed",
+        "availabilityNote": "On 22 September 2026, the original listing's search returned Available after accepting check-in 05/11/2026 and check-out 28/04/2027 with one adult selected; EUR 400/month remained displayed. This confirms the source's complete-stay availability result at checking time, not a reservation or binding all-in offer. The furnished studio has no separate bedroom. Water, electricity, gas if applicable, internet, final cleaning and deposit are extra; the feature table quotes EUR 80 final cleaning, while internet inclusion conflicts with the description. Other amounts and contract terms remain unverified. Also appears in PAPER 003, 004, 006, 009, 014, 017.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292823ffe26d55df85195e2de502106d5200a4.jpg",
+            "alt": "Outward street view across the neighbouring facade and road crossing.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292820e3510cba09d7d0ceda7028a7067ce5b7.jpg",
+            "alt": "Living and dining room with orange sofa and blue armchair.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928223dd7d0bfb7c9bfa8b91d72ac558f6bbc.jpg",
+            "alt": "Kitchen counter, refrigerator, hob and blue tile border.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292822ed3e6cf54efeb50f66403fbd6c7f5dc9.jpg",
+            "alt": "Bathroom basin, toilet and bathtub with shower curtain.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292822f1e99d564a5918f2d27f5fb2e7989ca4.jpg",
+            "alt": "Glazed balcony with chairs and yellow curtains.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928245ce29aae059c18361b717534265cddb8.jpg",
+            "alt": "Communal stair landing and lift door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928225bf848c55d515b315e0f6faa052246fd.jpg",
+            "alt": "Entrance hallway with mirror and storage.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292823c774edf7bdb8abbc1b591599ae8a9683.jpg",
+            "alt": "Kitchen with washing machine and cooking area.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/171829282300b3e9efc8ad59b5000935471fa2cb57.jpg",
+            "alt": "Outward street view in the other direction, with green awning.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-112600022",
+        "displayName": "P-112600022 Noruega 3",
+        "area": "Torrevieja Los Locos",
+        "address": "Calle Noruega 3, 1st with lift",
+        "bedrooms": 1,
+        "sizeSqm": 30,
+        "monthlyRentEur": 530,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "October to May advertised, year unspecified; full requested stay unconfirmed. Furnished, air conditioning and Wi-Fi advertised. Advertised one bedroom conflicts with a sofa-bed studio layout. Deposit EUR 1,060; bills unknown. Also appears in PAPER 006, 007, 008, 020.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112600022/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112600022/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/6d/fd/d7/1475468322.webp",
+            "alt": "Street view between buildings towards the sea",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/ff/9b/3e/1475467564.webp",
+            "alt": "Living room with grey sofa, television and balcony doors",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/50/50/99/1475468421.webp",
+            "alt": "Equipped kitchen with washing machine, oven, hob and microwave",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/bf/bf/d1/1475468323.webp",
+            "alt": "Bathroom with bath, toilet, bidet and wooden vanity",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/b1/3f/1e/1475468292.webp",
+            "alt": "Enclosed balcony with dining table, blue chairs and street outlook",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "alegria-500866-500880",
+      "rank": 5,
+      "paperId": "P-500866",
+      "apartmentId": "P-500880",
+      "title": "PAPER 005 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1000,
+      "poolDistance": "P-500866: Not listed; access unconfirmed.\n\nP-500880: Not listed; access unconfirmed.",
+      "beachDistance": "P-500866: Advertised: Del Cura200m\n\nP-500880: Advertised: beach200m; other text300-500m",
+      "groceriesDistance": "P-500866: Advertised: Masymas 60m\n\nP-500880: guesstimate midpoint 150 m (range 50-250 m)",
+      "cafesDistance": "P-500866: guesstimate midpoint 150 m (range 50-250 m)\n\nP-500880: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 400 m (range 250-550 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-500866",
+        "displayName": "P-500866 - Alegria ID 105",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 38,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Checked 22 September 2026. The date fields accepted 05/11/2026 and 28/04/2027, but Search returned an error saying the number of occupants exceeds the maximum permitted while one adult was selected. No usable complete-stay availability result was obtained; availability remains unknown. The furnished studio advert quotes EUR 500/month and has no separate bedroom. Utilities, internet, final cleaning and deposit are extra; amounts and full-stay contract price remain unverified. The description charges utilities/internet/cleaning separately while some feature fields say included; treat inclusion as unresolved. Also appears in PAPER 003, 005, 007, 015, 018.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440089eae1ef60492d0a6d4494ee7cf13bba03.jpg",
+            "alt": "Outdoor balcony with white balustrade and street view.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008762c60a036081733cf607c755de0e38f3.jpg",
+            "alt": "Studio living and dining area facing the balcony door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088650ade000393744d443b1a5cf2c2df67.jpg",
+            "alt": "Kitchen with oven, hob and red trim.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008824085648c19881a5ab35e75305554a3d.jpg",
+            "alt": "Bathroom with bathtub, shower and basin.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088f6c125176688dca66ebff69f6f6398f8.jpg",
+            "alt": "Building entrance hall and glass door toward the street.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088768f9ad5233c884740ec2b41390b3f53.jpg",
+            "alt": "Dining table beside refrigerator and microwave.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440087af5345c7728352e9a4ff82f05e414199.jpg",
+            "alt": "Studio overview with wardrobe, kitchen and entrance door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008913ab1a3afa83ace7f41a7912bed6bc10.jpg",
+            "alt": "Entrance door and mirror beside the kitchen.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-500880",
+        "displayName": "P-500880 - Alegria ID 107",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 32,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Checked 22 September 2026. The date fields accepted 05/11/2026 and 28/04/2027, but Search returned an error saying the number of occupants exceeds the maximum permitted while one adult was selected. No usable complete-stay availability result was obtained; availability remains unknown. The furnished studio advert quotes EUR 500/month and has no separate bedroom. Utilities, internet, final cleaning and deposit are extra; amounts and full-stay contract price remain unverified. The description charges utilities/internet/cleaning separately while some feature fields say included; treat inclusion as unresolved. Also appears in PAPER 004, 005, 008, 016, 019.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/177883740217aec872d2c8ccc91f6df760dda2013c.jpg",
+            "alt": "Building exterior with pink and cream walls and green balconies.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373971bc4f4bf49d0e37f1a14358fc7b6dc33.jpg",
+            "alt": "Glazed balcony with small table, chairs and white curtains.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373946648bce995523a2c06d6d40416ee411c.jpg",
+            "alt": "Studio living area with grey sofa and wooden storage.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/177883739694fc6b1b4d8b92530ab27ad8bd62943c.jpg",
+            "alt": "Kitchen with white cabinets, oven and washing machine.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837400e8fb7ed8a5c6c6c666bd07b9db82d128.jpg",
+            "alt": "Bathroom basin, towels and shelves.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17254425046112273ea76a312368aa8d18bc1f2ca7.jpg",
+            "alt": "Outward street view toward neighbouring facades and the road.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837400fb118e3f24c98a3b65f29542b9153c88.jpg",
+            "alt": "Entrance hallway and adjacent bathroom doorway.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837401bc24238d8652d1b4e151bb933d707fdb.jpg",
+            "alt": "Communal stair landing and lift.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373951bcce8544c52097005e5d5b5ce329356.jpg",
+            "alt": "Living and dining area with table and kitchen opening.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-490846-102186697",
+      "rank": 6,
+      "paperId": "P-490846",
+      "apartmentId": "P-102186697",
+      "title": "PAPER 014 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos",
+        "Torrevieja Del Cura"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1000,
+      "poolDistance": "P-490846: Not listed; access unconfirmed.\n\nP-102186697: Not listed; access unconfirmed.",
+      "beachDistance": "P-490846: Advertised: Los Locos300m,Del Cura500m\n\nP-102186697: guesstimate midpoint 250 m (range 100-400 m)",
+      "groceriesDistance": "P-490846: Advertised: 150m\n\nP-102186697: guesstimate midpoint 200 m (range 100-300 m)",
+      "cafesDistance": "P-490846: guesstimate midpoint 150 m (range 50-250 m)\n\nP-102186697: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 550 m (range 400-700 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-490846",
+        "displayName": "P-490846 - Alegria ID 45",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 33,
+        "monthlyRentEur": 400,
+        "furnished": true,
+        "availabilityStatus": "confirmed",
+        "availabilityNote": "On 22 September 2026, the original listing's search returned Available after accepting check-in 05/11/2026 and check-out 28/04/2027 with one adult selected; EUR 400/month remained displayed. This confirms the source's complete-stay availability result at checking time, not a reservation or binding all-in offer. The furnished studio has no separate bedroom. Water, electricity, gas if applicable, internet, final cleaning and deposit are extra; the feature table quotes EUR 80 final cleaning, while internet inclusion conflicts with the description. Other amounts and contract terms remain unverified. Also appears in PAPER 003, 004, 006, 009, 014, 017.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292823ffe26d55df85195e2de502106d5200a4.jpg",
+            "alt": "Outward street view across the neighbouring facade and road crossing.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292820e3510cba09d7d0ceda7028a7067ce5b7.jpg",
+            "alt": "Living and dining room with orange sofa and blue armchair.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928223dd7d0bfb7c9bfa8b91d72ac558f6bbc.jpg",
+            "alt": "Kitchen counter, refrigerator, hob and blue tile border.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292822ed3e6cf54efeb50f66403fbd6c7f5dc9.jpg",
+            "alt": "Bathroom basin, toilet and bathtub with shower curtain.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292822f1e99d564a5918f2d27f5fb2e7989ca4.jpg",
+            "alt": "Glazed balcony with chairs and yellow curtains.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928245ce29aae059c18361b717534265cddb8.jpg",
+            "alt": "Communal stair landing and lift door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928225bf848c55d515b315e0f6faa052246fd.jpg",
+            "alt": "Entrance hallway with mirror and storage.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292823c774edf7bdb8abbc1b591599ae8a9683.jpg",
+            "alt": "Kitchen with washing machine and cooking area.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/171829282300b3e9efc8ad59b5000935471fa2cb57.jpg",
+            "alt": "Outward street view in the other direction, with green awning.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-102186697",
+        "displayName": "P-102186697 Pedro Lorca 128",
+        "area": "Torrevieja Del Cura",
+        "address": "Calle Pedro Lorca 128, 4th with lift",
+        "bedrooms": 1,
+        "sizeSqm": 59,
+        "monthlyRentEur": 600,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Seasonal rental; months, year and full requested stay unconfirmed. Ideal for teachers; acceptance of other tenants unknown. Furnished and air conditioning advertised. Deposit EUR 1,200; bills and heating unknown. Also appears in PAPER 014, 015, 016, 021.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/102186697/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/102186697/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/7c/ba/65/1147207343.webp",
+            "alt": "Pink-walled balcony with white outdoor table and chairs",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/63/35/6c/1147207319.webp",
+            "alt": "Living-room dining corner with wooden table, chairs and television",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/62/82/7e/1147207333.webp",
+            "alt": "Double bedroom with white bed linen and wooden fitted wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/cf/5d/39/1147207158.webp",
+            "alt": "Side sea view along the street towards Playa del Cura",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-500866-500834",
+      "rank": 7,
+      "paperId": "P-500866",
+      "apartmentId": "P-500834",
+      "title": "PAPER 018 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos",
+        "Torrevieja Los Gases"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1000,
+      "poolDistance": "P-500866: Not listed; access unconfirmed.\n\nP-500834: Communal on site; winter/guest access unknown",
+      "beachDistance": "P-500866: Advertised: Del Cura200m\n\nP-500834: Advertised: 500m",
+      "groceriesDistance": "P-500866: Advertised: Masymas 60m\n\nP-500834: Advertised: 100m",
+      "cafesDistance": "P-500866: guesstimate midpoint 150 m (range 50-250 m)\n\nP-500834: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 700 m (range 500-900 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-500866",
+        "displayName": "P-500866 - Alegria ID 105",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 38,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Checked 22 September 2026. The date fields accepted 05/11/2026 and 28/04/2027, but Search returned an error saying the number of occupants exceeds the maximum permitted while one adult was selected. No usable complete-stay availability result was obtained; availability remains unknown. The furnished studio advert quotes EUR 500/month and has no separate bedroom. Utilities, internet, final cleaning and deposit are extra; amounts and full-stay contract price remain unverified. The description charges utilities/internet/cleaning separately while some feature fields say included; treat inclusion as unresolved. Also appears in PAPER 003, 005, 007, 015, 018.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440089eae1ef60492d0a6d4494ee7cf13bba03.jpg",
+            "alt": "Outdoor balcony with white balustrade and street view.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008762c60a036081733cf607c755de0e38f3.jpg",
+            "alt": "Studio living and dining area facing the balcony door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088650ade000393744d443b1a5cf2c2df67.jpg",
+            "alt": "Kitchen with oven, hob and red trim.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008824085648c19881a5ab35e75305554a3d.jpg",
+            "alt": "Bathroom with bathtub, shower and basin.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088f6c125176688dca66ebff69f6f6398f8.jpg",
+            "alt": "Building entrance hall and glass door toward the street.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088768f9ad5233c884740ec2b41390b3f53.jpg",
+            "alt": "Dining table beside refrigerator and microwave.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440087af5345c7728352e9a4ff82f05e414199.jpg",
+            "alt": "Studio overview with wardrobe, kitchen and entrance door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008913ab1a3afa83ace7f41a7912bed6bc10.jpg",
+            "alt": "Entrance door and mirror beside the kitchen.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-500834",
+        "displayName": "P-500834 Alegria ID 101",
+        "area": "Torrevieja Los Gases",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 47,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "confirmed",
+        "availabilityNote": "On 22 September 2026, the original listing search returned Available for check-in 05/11/2026 and check-out 28/04/2027 with one adult; EUR 500/month remained displayed. This confirms source availability at checking time, not a booking or binding all-in offer. Furnished studio with sofa beds, third floor with lift, air conditioning, electric heating and communal pool. Utilities, internet, cleaning and deposit extra; internet inclusion conflicts with the feature table. No pets or smoking. Winter pool and partner guest access unknown. Map location is a guesstimate neighborhood anchor near Los Gases/Galeon, with approximately 150 m location uncertainty, not a verified entrance. Also appears in PAPER 017, 018, 019, 020, 021.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+        "photoAttribution": "Alegria",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396603efdcc4010db180befb5b9bcb9aad03a3.jpg",
+            "alt": "Communal courtyard pool viewed from the apartment balcony",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396604cbd23cca48de3dac81179daa6d0b5d50.jpg",
+            "alt": "Studio living room with blue sofas, armchair and balcony doors",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396604fb20b0130e81a49014bfd7636a6a3625.jpg",
+            "alt": "Yellow-tiled bathroom with shower, washing machine and basin",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/17253966056edc3f40c4f2e7ffb3bcf984036708a3.jpg",
+            "alt": "White fitted kitchen with ceramic hob, refrigerator and small dining table",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396605aff5f8c3d35f9a6629689b0f24591436.jpg",
+            "alt": "Glazed balcony with blue patterned curtains and outdoor chairs",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396603f1876210bf356451172ae6de607bba13.jpg",
+            "alt": "Entrance hallway with mirror and blue trim beside the kitchen",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-500880-500834",
+      "rank": 8,
+      "paperId": "P-500880",
+      "apartmentId": "P-500834",
+      "title": "PAPER 019 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos",
+        "Torrevieja Los Gases"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1000,
+      "poolDistance": "P-500880: Not listed; access unconfirmed.\n\nP-500834: Communal on site; winter/guest access unknown",
+      "beachDistance": "P-500880: Advertised: beach200m; other text300-500m\n\nP-500834: Advertised: 500m",
+      "groceriesDistance": "P-500880: guesstimate midpoint 150 m (range 50-250 m)\n\nP-500834: Advertised: 100m",
+      "cafesDistance": "P-500880: guesstimate midpoint 150 m (range 50-250 m)\n\nP-500834: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 400 m (range 200-600 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-500880",
+        "displayName": "P-500880 - Alegria ID 107",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 32,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Checked 22 September 2026. The date fields accepted 05/11/2026 and 28/04/2027, but Search returned an error saying the number of occupants exceeds the maximum permitted while one adult was selected. No usable complete-stay availability result was obtained; availability remains unknown. The furnished studio advert quotes EUR 500/month and has no separate bedroom. Utilities, internet, final cleaning and deposit are extra; amounts and full-stay contract price remain unverified. The description charges utilities/internet/cleaning separately while some feature fields say included; treat inclusion as unresolved. Also appears in PAPER 004, 005, 008, 016, 019.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/177883740217aec872d2c8ccc91f6df760dda2013c.jpg",
+            "alt": "Building exterior with pink and cream walls and green balconies.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373971bc4f4bf49d0e37f1a14358fc7b6dc33.jpg",
+            "alt": "Glazed balcony with small table, chairs and white curtains.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373946648bce995523a2c06d6d40416ee411c.jpg",
+            "alt": "Studio living area with grey sofa and wooden storage.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/177883739694fc6b1b4d8b92530ab27ad8bd62943c.jpg",
+            "alt": "Kitchen with white cabinets, oven and washing machine.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837400e8fb7ed8a5c6c6c666bd07b9db82d128.jpg",
+            "alt": "Bathroom basin, towels and shelves.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17254425046112273ea76a312368aa8d18bc1f2ca7.jpg",
+            "alt": "Outward street view toward neighbouring facades and the road.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837400fb118e3f24c98a3b65f29542b9153c88.jpg",
+            "alt": "Entrance hallway and adjacent bathroom doorway.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837401bc24238d8652d1b4e151bb933d707fdb.jpg",
+            "alt": "Communal stair landing and lift.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373951bcce8544c52097005e5d5b5ce329356.jpg",
+            "alt": "Living and dining area with table and kitchen opening.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-500834",
+        "displayName": "P-500834 Alegria ID 101",
+        "area": "Torrevieja Los Gases",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 47,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "confirmed",
+        "availabilityNote": "On 22 September 2026, the original listing search returned Available for check-in 05/11/2026 and check-out 28/04/2027 with one adult; EUR 500/month remained displayed. This confirms source availability at checking time, not a booking or binding all-in offer. Furnished studio with sofa beds, third floor with lift, air conditioning, electric heating and communal pool. Utilities, internet, cleaning and deposit extra; internet inclusion conflicts with the feature table. No pets or smoking. Winter pool and partner guest access unknown. Map location is a guesstimate neighborhood anchor near Los Gases/Galeon, with approximately 150 m location uncertainty, not a verified entrance. Also appears in PAPER 017, 018, 019, 020, 021.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+        "photoAttribution": "Alegria",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396603efdcc4010db180befb5b9bcb9aad03a3.jpg",
+            "alt": "Communal courtyard pool viewed from the apartment balcony",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396604cbd23cca48de3dac81179daa6d0b5d50.jpg",
+            "alt": "Studio living room with blue sofas, armchair and balcony doors",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396604fb20b0130e81a49014bfd7636a6a3625.jpg",
+            "alt": "Yellow-tiled bathroom with shower, washing machine and basin",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/17253966056edc3f40c4f2e7ffb3bcf984036708a3.jpg",
+            "alt": "White fitted kitchen with ceramic hob, refrigerator and small dining table",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396605aff5f8c3d35f9a6629689b0f24591436.jpg",
+            "alt": "Glazed balcony with blue patterned curtains and outdoor chairs",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396603f1876210bf356451172ae6de607bba13.jpg",
+            "alt": "Entrance hallway with mirror and blue trim beside the kitchen",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-490846-112351539",
+      "rank": 9,
+      "paperId": "P-490846",
+      "apartmentId": "P-112351539",
+      "title": "PAPER 009 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos",
+        "Torrevieja Los Locos"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1025,
+      "poolDistance": "P-490846: Not listed; access unconfirmed.\n\nP-112351539: Communal on site; winter/guest access unknown",
+      "beachDistance": "P-490846: Advertised: Los Locos300m,Del Cura500m\n\nP-112351539: guesstimate midpoint 200 m (range 100-300 m)",
+      "groceriesDistance": "P-490846: Advertised: 150m\n\nP-112351539: guesstimate midpoint 200 m (range 100-300 m)",
+      "cafesDistance": "P-490846: guesstimate midpoint 150 m (range 50-250 m)\n\nP-112351539: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 350 m (range 200-500 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-490846",
+        "displayName": "P-490846 - Alegria ID 45",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 33,
+        "monthlyRentEur": 400,
+        "furnished": true,
+        "availabilityStatus": "confirmed",
+        "availabilityNote": "On 22 September 2026, the original listing's search returned Available after accepting check-in 05/11/2026 and check-out 28/04/2027 with one adult selected; EUR 400/month remained displayed. This confirms the source's complete-stay availability result at checking time, not a reservation or binding all-in offer. The furnished studio has no separate bedroom. Water, electricity, gas if applicable, internet, final cleaning and deposit are extra; the feature table quotes EUR 80 final cleaning, while internet inclusion conflicts with the description. Other amounts and contract terms remain unverified. Also appears in PAPER 003, 004, 006, 009, 014, 017.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292823ffe26d55df85195e2de502106d5200a4.jpg",
+            "alt": "Outward street view across the neighbouring facade and road crossing.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292820e3510cba09d7d0ceda7028a7067ce5b7.jpg",
+            "alt": "Living and dining room with orange sofa and blue armchair.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928223dd7d0bfb7c9bfa8b91d72ac558f6bbc.jpg",
+            "alt": "Kitchen counter, refrigerator, hob and blue tile border.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292822ed3e6cf54efeb50f66403fbd6c7f5dc9.jpg",
+            "alt": "Bathroom basin, toilet and bathtub with shower curtain.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292822f1e99d564a5918f2d27f5fb2e7989ca4.jpg",
+            "alt": "Glazed balcony with chairs and yellow curtains.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928245ce29aae059c18361b717534265cddb8.jpg",
+            "alt": "Communal stair landing and lift door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/17182928225bf848c55d515b315e0f6faa052246fd.jpg",
+            "alt": "Entrance hallway with mirror and storage.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/1718292823c774edf7bdb8abbc1b591599ae8a9683.jpg",
+            "alt": "Kitchen with washing machine and cooking area.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17182928203065ea26956bb5b402fdbf70b8f50d0d/171829282300b3e9efc8ad59b5000935471fa2cb57.jpg",
+            "alt": "Outward street view in the other direction, with green awning.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id45-490846.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-112351539",
+        "displayName": "P-112351539 Mar Baltico 27",
+        "area": "Torrevieja Los Locos",
+        "address": "Calle Mar Baltico 27, 4th with lift",
+        "bedrooms": 2,
+        "sizeSqm": 57,
+        "monthlyRentEur": 625,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "September 2026 to 30 June 2027 advertised; full requested stay unconfirmed. Furnished, air conditioning, parking and communal pool advertised. Deposit EUR 1,250; community charges included; water, electricity and internet extra. Winter pool and partner guest access unknown. Also appears in PAPER 009.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112351539/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112351539/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/24/c4/d0/1466887207.webp",
+            "alt": "Outdoor communal courtyard with swimming pool",
+            "sourceUrl": "https://www.idealista.com/inmueble/112351539/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/9f/01/05/1466887147.webp",
+            "alt": "Living room with television, seating and enclosed balcony",
+            "sourceUrl": "https://www.idealista.com/inmueble/112351539/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/74/b0/48/1468492709.webp",
+            "alt": "Kitchen with wooden cupboards, hob, microwave and washing machine",
+            "sourceUrl": "https://www.idealista.com/inmueble/112351539/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/c0/54/d5/1466887162.webp",
+            "alt": "Bedroom with double bed, wooden drawers and courtyard-facing window",
+            "sourceUrl": "https://www.idealista.com/inmueble/112351539/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/12/2a/f7/1466887217.webp",
+            "alt": "Bathroom with bathtub, shower, toilet and bidet",
+            "sourceUrl": "https://www.idealista.com/inmueble/112351539/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/91/5c/32/1466887220.webp",
+            "alt": "Second bedroom with bunk beds and a wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/112351539/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/c4/27/9c/1466887240.webp",
+            "alt": "Outward view over nearby rooftops towards the sea",
+            "sourceUrl": "https://www.idealista.com/inmueble/112351539/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/0b/d9/4d/1472017414.webp",
+            "alt": "Marked parking space inside the building garage",
+            "sourceUrl": "https://www.idealista.com/inmueble/112351539/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-500866-112600022",
+      "rank": 10,
+      "paperId": "P-500866",
+      "apartmentId": "P-112600022",
+      "title": "PAPER 007 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos",
+        "Torrevieja Los Locos"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1030,
+      "poolDistance": "P-500866: Not listed; access unconfirmed.\n\nP-112600022: Not listed; access unconfirmed.",
+      "beachDistance": "P-500866: Advertised: Del Cura200m\n\nP-112600022: Advertised: 50m; route guesstimate midpoint 100 m (range 50-150 m)",
+      "groceriesDistance": "P-500866: Advertised: Masymas 60m\n\nP-112600022: guesstimate midpoint 300 m (range 150-450 m)",
+      "cafesDistance": "P-500866: guesstimate midpoint 150 m (range 50-250 m)\n\nP-112600022: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 800 m (range 650-950 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-500866",
+        "displayName": "P-500866 - Alegria ID 105",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 38,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Checked 22 September 2026. The date fields accepted 05/11/2026 and 28/04/2027, but Search returned an error saying the number of occupants exceeds the maximum permitted while one adult was selected. No usable complete-stay availability result was obtained; availability remains unknown. The furnished studio advert quotes EUR 500/month and has no separate bedroom. Utilities, internet, final cleaning and deposit are extra; amounts and full-stay contract price remain unverified. The description charges utilities/internet/cleaning separately while some feature fields say included; treat inclusion as unresolved. Also appears in PAPER 003, 005, 007, 015, 018.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440089eae1ef60492d0a6d4494ee7cf13bba03.jpg",
+            "alt": "Outdoor balcony with white balustrade and street view.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008762c60a036081733cf607c755de0e38f3.jpg",
+            "alt": "Studio living and dining area facing the balcony door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088650ade000393744d443b1a5cf2c2df67.jpg",
+            "alt": "Kitchen with oven, hob and red trim.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008824085648c19881a5ab35e75305554a3d.jpg",
+            "alt": "Bathroom with bathtub, shower and basin.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088f6c125176688dca66ebff69f6f6398f8.jpg",
+            "alt": "Building entrance hall and glass door toward the street.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088768f9ad5233c884740ec2b41390b3f53.jpg",
+            "alt": "Dining table beside refrigerator and microwave.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440087af5345c7728352e9a4ff82f05e414199.jpg",
+            "alt": "Studio overview with wardrobe, kitchen and entrance door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008913ab1a3afa83ace7f41a7912bed6bc10.jpg",
+            "alt": "Entrance door and mirror beside the kitchen.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-112600022",
+        "displayName": "P-112600022 Noruega 3",
+        "area": "Torrevieja Los Locos",
+        "address": "Calle Noruega 3, 1st with lift",
+        "bedrooms": 1,
+        "sizeSqm": 30,
+        "monthlyRentEur": 530,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "October to May advertised, year unspecified; full requested stay unconfirmed. Furnished, air conditioning and Wi-Fi advertised. Advertised one bedroom conflicts with a sofa-bed studio layout. Deposit EUR 1,060; bills unknown. Also appears in PAPER 006, 007, 008, 020.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112600022/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112600022/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/6d/fd/d7/1475468322.webp",
+            "alt": "Street view between buildings towards the sea",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/ff/9b/3e/1475467564.webp",
+            "alt": "Living room with grey sofa, television and balcony doors",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/50/50/99/1475468421.webp",
+            "alt": "Equipped kitchen with washing machine, oven, hob and microwave",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/bf/bf/d1/1475468323.webp",
+            "alt": "Bathroom with bath, toilet, bidet and wooden vanity",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/b1/3f/1e/1475468292.webp",
+            "alt": "Enclosed balcony with dining table, blue chairs and street outlook",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-500880-112600022",
+      "rank": 11,
+      "paperId": "P-500880",
+      "apartmentId": "P-112600022",
+      "title": "PAPER 008 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos",
+        "Torrevieja Los Locos"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1030,
+      "poolDistance": "P-500880: Not listed; access unconfirmed.\n\nP-112600022: Not listed; access unconfirmed.",
+      "beachDistance": "P-500880: Advertised: beach200m; other text300-500m\n\nP-112600022: Advertised: 50m; route guesstimate midpoint 100 m (range 50-150 m)",
+      "groceriesDistance": "P-500880: guesstimate midpoint 150 m (range 50-250 m)\n\nP-112600022: guesstimate midpoint 300 m (range 150-450 m)",
+      "cafesDistance": "P-500880: guesstimate midpoint 150 m (range 50-250 m)\n\nP-112600022: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 500 m (range 350-650 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-500880",
+        "displayName": "P-500880 - Alegria ID 107",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 32,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Checked 22 September 2026. The date fields accepted 05/11/2026 and 28/04/2027, but Search returned an error saying the number of occupants exceeds the maximum permitted while one adult was selected. No usable complete-stay availability result was obtained; availability remains unknown. The furnished studio advert quotes EUR 500/month and has no separate bedroom. Utilities, internet, final cleaning and deposit are extra; amounts and full-stay contract price remain unverified. The description charges utilities/internet/cleaning separately while some feature fields say included; treat inclusion as unresolved. Also appears in PAPER 004, 005, 008, 016, 019.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/177883740217aec872d2c8ccc91f6df760dda2013c.jpg",
+            "alt": "Building exterior with pink and cream walls and green balconies.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373971bc4f4bf49d0e37f1a14358fc7b6dc33.jpg",
+            "alt": "Glazed balcony with small table, chairs and white curtains.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373946648bce995523a2c06d6d40416ee411c.jpg",
+            "alt": "Studio living area with grey sofa and wooden storage.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/177883739694fc6b1b4d8b92530ab27ad8bd62943c.jpg",
+            "alt": "Kitchen with white cabinets, oven and washing machine.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837400e8fb7ed8a5c6c6c666bd07b9db82d128.jpg",
+            "alt": "Bathroom basin, towels and shelves.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17254425046112273ea76a312368aa8d18bc1f2ca7.jpg",
+            "alt": "Outward street view toward neighbouring facades and the road.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837400fb118e3f24c98a3b65f29542b9153c88.jpg",
+            "alt": "Entrance hallway and adjacent bathroom doorway.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837401bc24238d8652d1b4e151bb933d707fdb.jpg",
+            "alt": "Communal stair landing and lift.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373951bcce8544c52097005e5d5b5ce329356.jpg",
+            "alt": "Living and dining area with table and kitchen opening.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-112600022",
+        "displayName": "P-112600022 Noruega 3",
+        "area": "Torrevieja Los Locos",
+        "address": "Calle Noruega 3, 1st with lift",
+        "bedrooms": 1,
+        "sizeSqm": 30,
+        "monthlyRentEur": 530,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "October to May advertised, year unspecified; full requested stay unconfirmed. Furnished, air conditioning and Wi-Fi advertised. Advertised one bedroom conflicts with a sofa-bed studio layout. Deposit EUR 1,060; bills unknown. Also appears in PAPER 006, 007, 008, 020.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112600022/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112600022/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/6d/fd/d7/1475468322.webp",
+            "alt": "Street view between buildings towards the sea",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/ff/9b/3e/1475467564.webp",
+            "alt": "Living room with grey sofa, television and balcony doors",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/50/50/99/1475468421.webp",
+            "alt": "Equipped kitchen with washing machine, oven, hob and microwave",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/bf/bf/d1/1475468323.webp",
+            "alt": "Bathroom with bath, toilet, bidet and wooden vanity",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/b1/3f/1e/1475468292.webp",
+            "alt": "Enclosed balcony with dining table, blue chairs and street outlook",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-112600022-500834",
+      "rank": 12,
+      "paperId": "P-112600022",
+      "apartmentId": "P-500834",
+      "title": "PAPER 020 — Torrevieja Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja Los Locos",
+        "Torrevieja Los Gases"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1030,
+      "poolDistance": "P-112600022: Not listed; access unconfirmed.\n\nP-500834: Communal on site; winter/guest access unknown",
+      "beachDistance": "P-112600022: Advertised: 50m; route guesstimate midpoint 100 m (range 50-150 m)\n\nP-500834: Advertised: 500m",
+      "groceriesDistance": "P-112600022: guesstimate midpoint 300 m (range 150-450 m)\n\nP-500834: Advertised: 100m",
+      "cafesDistance": "P-112600022: guesstimate midpoint 150 m (range 50-250 m)\n\nP-500834: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 700 m (range 500-900 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-112600022",
+        "displayName": "P-112600022 Noruega 3",
+        "area": "Torrevieja Los Locos",
+        "address": "Calle Noruega 3, 1st with lift",
+        "bedrooms": 1,
+        "sizeSqm": 30,
+        "monthlyRentEur": 530,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "October to May advertised, year unspecified; full requested stay unconfirmed. Furnished, air conditioning and Wi-Fi advertised. Advertised one bedroom conflicts with a sofa-bed studio layout. Deposit EUR 1,060; bills unknown. Also appears in PAPER 006, 007, 008, 020.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112600022/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112600022/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/6d/fd/d7/1475468322.webp",
+            "alt": "Street view between buildings towards the sea",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/ff/9b/3e/1475467564.webp",
+            "alt": "Living room with grey sofa, television and balcony doors",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/50/50/99/1475468421.webp",
+            "alt": "Equipped kitchen with washing machine, oven, hob and microwave",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/bf/bf/d1/1475468323.webp",
+            "alt": "Bathroom with bath, toilet, bidet and wooden vanity",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/b1/3f/1e/1475468292.webp",
+            "alt": "Enclosed balcony with dining table, blue chairs and street outlook",
+            "sourceUrl": "https://www.idealista.com/inmueble/112600022/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-500834",
+        "displayName": "P-500834 Alegria ID 101",
+        "area": "Torrevieja Los Gases",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 47,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "confirmed",
+        "availabilityNote": "On 22 September 2026, the original listing search returned Available for check-in 05/11/2026 and check-out 28/04/2027 with one adult; EUR 500/month remained displayed. This confirms source availability at checking time, not a booking or binding all-in offer. Furnished studio with sofa beds, third floor with lift, air conditioning, electric heating and communal pool. Utilities, internet, cleaning and deposit extra; internet inclusion conflicts with the feature table. No pets or smoking. Winter pool and partner guest access unknown. Map location is a guesstimate neighborhood anchor near Los Gases/Galeon, with approximately 150 m location uncertainty, not a verified entrance. Also appears in PAPER 017, 018, 019, 020, 021.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+        "photoAttribution": "Alegria",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396603efdcc4010db180befb5b9bcb9aad03a3.jpg",
+            "alt": "Communal courtyard pool viewed from the apartment balcony",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396604cbd23cca48de3dac81179daa6d0b5d50.jpg",
+            "alt": "Studio living room with blue sofas, armchair and balcony doors",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396604fb20b0130e81a49014bfd7636a6a3625.jpg",
+            "alt": "Yellow-tiled bathroom with shower, washing machine and basin",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/17253966056edc3f40c4f2e7ffb3bcf984036708a3.jpg",
+            "alt": "White fitted kitchen with ceramic hob, refrigerator and small dining table",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396605aff5f8c3d35f9a6629689b0f24591436.jpg",
+            "alt": "Glazed balcony with blue patterned curtains and outdoor chairs",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396603f1876210bf356451172ae6de607bba13.jpg",
+            "alt": "Entrance hallway with mirror and blue trim beside the kitchen",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-103839276-13149",
+      "rank": 13,
+      "paperId": "P-103839276",
+      "apartmentId": "P-13149",
+      "title": "PAPER 011 — Santa Pola Puerto",
+      "summary": "Port apartment address hidden; district estimate only.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Santa Pola Puerto"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1090,
+      "poolDistance": "P-103839276: Not listed; access unconfirmed.\n\nP-13149: Not listed; access unconfirmed.",
+      "beachDistance": "P-103839276: Beachfront claim; guesstimate midpoint 100 m (range 50-150 m)\n\nP-13149: Agency advertises: 1km; port-location guesstimate midpoint 700 m (range 300-1100 m)",
+      "groceriesDistance": "P-103839276: guesstimate midpoint 600 m (range 400-800 m)\n\nP-13149: guesstimate midpoint 400 m (range 150-650 m)",
+      "cafesDistance": "P-103839276: guesstimate midpoint 150 m (range 50-250 m)\n\nP-13149: guesstimate midpoint 250 m (range 50-450 m)",
+      "pairWalkingDistance": "guesstimate midpoint 600 m (range 200-1000 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-103839276",
+        "displayName": "P-103839276 Blasco Ibanez 25",
+        "area": "Santa Pola Puerto",
+        "address": "Av Vicente Blasco Ibanez 25, 9th with lift",
+        "bedrooms": 1,
+        "sizeSqm": 50,
+        "monthlyRentEur": 540,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Quoted EUR 540 outside summer; exact season, full-stay rate and availability unconfirmed. High-season prices on request. Furnished, heating/cooling air conditioning and Wi-Fi advertised. Expenses extra; deposit EUR 1,080. Also appears in PAPER 011, 013.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/103839276/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/103839276/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/5a/0e/f7/1202078452.webp",
+            "alt": "Balcony dining table overlooking the beach and seafront",
+            "sourceUrl": "https://www.idealista.com/inmueble/103839276/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/db/7f/4a/1202078873.webp",
+            "alt": "Sea and beach view through the balcony-side window",
+            "sourceUrl": "https://www.idealista.com/inmueble/103839276/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/51/51/47/1202079326.webp",
+            "alt": "Twin beds with orange checked covers beside balcony doors",
+            "sourceUrl": "https://www.idealista.com/inmueble/103839276/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/fb/fa/ef/1202079342.webp",
+            "alt": "Living room with green sofa, dining table and wooden furniture",
+            "sourceUrl": "https://www.idealista.com/inmueble/103839276/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/df/50/57/1202079663.webp",
+            "alt": "Kitchen hob, extractor and white cupboards",
+            "sourceUrl": "https://www.idealista.com/inmueble/103839276/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/77/b3/35/1202080847.webp",
+            "alt": "Bathroom with patterned tiles, toilet, bidet and bathtub edge",
+            "sourceUrl": "https://www.idealista.com/inmueble/103839276/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-13149",
+        "displayName": "P-13149 SunSea 4813",
+        "area": "Santa Pola Puerto",
+        "address": null,
+        "bedrooms": 1,
+        "sizeSqm": 50,
+        "monthlyRentEur": 550,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Advertised until June 2027; full requested stay unconfirmed. Furnished, fifth floor with lift and parking; no pets. Bills, deposit and heating unknown. Agency built area 50 m2 versus useful area 55 m2 is inconsistent. Exact address hidden; map evidence locates only the port district. Agency: https://sunandsearealestate.com/property/13149/apartment/winter-rental/spain/alicante/santa-pola/santa-pola/ Also appears in PAPER 011, 012.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112496499/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112496499/",
+        "photoAttribution": "SunSea via Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/f0/25/53/1471938172.webp",
+            "alt": "View between apartment buildings towards the marina and street below",
+            "sourceUrl": "https://www.idealista.com/inmueble/112496499/",
+            "attribution": "SunSea via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/2e/ae/ac/1471938185.webp",
+            "alt": "Balcony with four chairs and a round mosaic table",
+            "sourceUrl": "https://www.idealista.com/inmueble/112496499/",
+            "attribution": "SunSea via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/79/43/e2/1471938188.webp",
+            "alt": "Utility area with washing machine and wall-mounted water heater",
+            "sourceUrl": "https://www.idealista.com/inmueble/112496499/",
+            "attribution": "SunSea via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/e9/0a/2d/1471938237.webp",
+            "alt": "White fitted kitchen with gas hob, oven, sink and microwave",
+            "sourceUrl": "https://www.idealista.com/inmueble/112496499/",
+            "attribution": "SunSea via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/ab/6d/f4/1471938246.webp",
+            "alt": "Twin beds with pastel bedcovers and a fitted wooden wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/112496499/",
+            "attribution": "SunSea via Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "SunSea via Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-103839276-98816818",
+      "rank": 14,
+      "paperId": "P-103839276",
+      "apartmentId": "P-98816818",
+      "title": "PAPER 013 — Santa Pola Puerto",
+      "summary": "Longer-walk coastal fallback; Calle del Mar door hidden.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Santa Pola Puerto",
+        "Santa Pola Santiago Bernabeu"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1090,
+      "poolDistance": "P-103839276: Not listed; access unconfirmed.\n\nP-98816818: Not listed; access unconfirmed.",
+      "beachDistance": "P-103839276: Beachfront claim; guesstimate midpoint 100 m (range 50-150 m)\n\nP-98816818: Advertised: 50m; exact location hidden",
+      "groceriesDistance": "P-103839276: guesstimate midpoint 600 m (range 400-800 m)\n\nP-98816818: guesstimate midpoint 250 m (range 100-400 m)",
+      "cafesDistance": "P-103839276: guesstimate midpoint 150 m (range 50-250 m)\n\nP-98816818: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 1600 m (range 1200-2000 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-103839276",
+        "displayName": "P-103839276 Blasco Ibanez 25",
+        "area": "Santa Pola Puerto",
+        "address": "Av Vicente Blasco Ibanez 25, 9th with lift",
+        "bedrooms": 1,
+        "sizeSqm": 50,
+        "monthlyRentEur": 540,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Quoted EUR 540 outside summer; exact season, full-stay rate and availability unconfirmed. High-season prices on request. Furnished, heating/cooling air conditioning and Wi-Fi advertised. Expenses extra; deposit EUR 1,080. Also appears in PAPER 011, 013.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/103839276/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/103839276/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/5a/0e/f7/1202078452.webp",
+            "alt": "Balcony dining table overlooking the beach and seafront",
+            "sourceUrl": "https://www.idealista.com/inmueble/103839276/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/db/7f/4a/1202078873.webp",
+            "alt": "Sea and beach view through the balcony-side window",
+            "sourceUrl": "https://www.idealista.com/inmueble/103839276/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/51/51/47/1202079326.webp",
+            "alt": "Twin beds with orange checked covers beside balcony doors",
+            "sourceUrl": "https://www.idealista.com/inmueble/103839276/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/fb/fa/ef/1202079342.webp",
+            "alt": "Living room with green sofa, dining table and wooden furniture",
+            "sourceUrl": "https://www.idealista.com/inmueble/103839276/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/df/50/57/1202079663.webp",
+            "alt": "Kitchen hob, extractor and white cupboards",
+            "sourceUrl": "https://www.idealista.com/inmueble/103839276/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/77/b3/35/1202080847.webp",
+            "alt": "Bathroom with patterned tiles, toilet, bidet and bathtub edge",
+            "sourceUrl": "https://www.idealista.com/inmueble/103839276/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-98816818",
+        "displayName": "P-98816818 Costasol A-188",
+        "area": "Santa Pola Santiago Bernabeu",
+        "address": "Calle del Mar, exact door hidden",
+        "bedrooms": 2,
+        "sizeSqm": 75,
+        "monthlyRentEur": 550,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "September to June advertised, year unspecified; full requested stay unconfirmed. Furnished per matching agency reference A-188, supported by photographs. Idealista advertises 75 m2 and second floor; agency says 70 m2 and third floor. These discrepancies need clarification. Lift and air conditioning advertised. Deposit EUR 1,100; bills unknown. Exact door hidden. Agency: https://www.costasolinmobiliaria.com/ficha/apartment/santa-pola/playa-levante/1578/9846768/en/ Also appears in PAPER 012, 013.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/98816818/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/98816818/",
+        "photoAttribution": "Costasol via Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/9d/1b/b4/1024713421.webp",
+            "alt": "Balcony table with street and sea view near the promenade",
+            "sourceUrl": "https://www.idealista.com/inmueble/98816818/",
+            "attribution": "Costasol via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/89/a8/7f/1024713378.webp",
+            "alt": "Bathroom with enclosed shower, toilet, vanity and washing machine",
+            "sourceUrl": "https://www.idealista.com/inmueble/98816818/",
+            "attribution": "Costasol via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/9a/86/0e/1024713380.webp",
+            "alt": "Small bedroom with white drawer bed and window",
+            "sourceUrl": "https://www.idealista.com/inmueble/98816818/",
+            "attribution": "Costasol via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/0b/96/81/1024713409.webp",
+            "alt": "Living room with red sofa, television and dining table beside the kitchen",
+            "sourceUrl": "https://www.idealista.com/inmueble/98816818/",
+            "attribution": "Costasol via Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Costasol via Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-109031929-108368452",
+      "rank": 15,
+      "paperId": "P-109031929",
+      "apartmentId": "P-108368452",
+      "title": "PAPER 010 — Torrevieja El Molino",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja El Molino"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1100,
+      "poolDistance": "P-109031929: Communal on site; winter/guest access unknown\n\nP-108368452: Communal on site; winter/guest access unknown",
+      "beachDistance": "P-109031929: guesstimate midpoint 1500 m (range 1200-1800 m)\n\nP-108368452: guesstimate midpoint 1500 m (range 1200-1800 m)",
+      "groceriesDistance": "P-109031929: guesstimate midpoint 300 m (range 150-450 m)\n\nP-108368452: guesstimate midpoint 300 m (range 150-450 m)",
+      "cafesDistance": "P-109031929: guesstimate midpoint 150 m (range 50-250 m)\n\nP-108368452: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 350 m (range 200-500 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-109031929",
+        "displayName": "P-109031929 Santa Trinidad 2",
+        "area": "Torrevieja El Molino",
+        "address": "Calle Santa Trinidad 2, 2nd with lift",
+        "bedrooms": 1,
+        "sizeSqm": 56,
+        "monthlyRentEur": 550,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "September 2026 to 30 June 2027 advertised; full requested stay unconfirmed. Preferably teachers; acceptance of other tenants unknown. Maximum one occupant. Furnished, air conditioning and communal pool advertised. Deposit EUR 1,100; optional garage EUR 50/month excluded from base rent. Bills and winter pool access unknown. Also appears in PAPER 010.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/109031929/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/109031929/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/a7/0e/6c/1362223250.webp",
+            "alt": "Balcony with round table, two cushioned chairs and street outlook",
+            "sourceUrl": "https://www.idealista.com/inmueble/109031929/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/b4/42/aa/1362223259.webp",
+            "alt": "Living room with patterned sofa, television and kitchen hatch",
+            "sourceUrl": "https://www.idealista.com/inmueble/109031929/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/cb/27/f3/1362223279.webp",
+            "alt": "Kitchen with washing machine, fridge-freezer, sink and hob",
+            "sourceUrl": "https://www.idealista.com/inmueble/109031929/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/e7/5c/3e/1362223251.webp",
+            "alt": "Bedroom with double bed, desk, television and ceiling fan",
+            "sourceUrl": "https://www.idealista.com/inmueble/109031929/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/270/id.pro.es.image.master/5d/ab/39/1362223188.webp",
+            "alt": "Communal courtyard swimming pool photographed sideways",
+            "sourceUrl": "https://www.idealista.com/inmueble/109031929/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-108368452",
+        "displayName": "P-108368452 Bazan 90",
+        "area": "Torrevieja El Molino",
+        "address": "Calle Bazan 90, 4th with lift",
+        "bedrooms": 1,
+        "sizeSqm": 52,
+        "monthlyRentEur": 550,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "September to 31 May advertised, year unspecified; full requested stay unconfirmed. Furnished, air conditioning and communal pool advertised. Winter rent EUR 550 plus bills; deposit EUR 550. Winter pool and partner guest access unknown. Also appears in PAPER 010.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/108368452/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/108368452/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/7d/0b/e2/1344754545.webp",
+            "alt": "Outward view over communal swimming pool towards plaza and windmill",
+            "sourceUrl": "https://www.idealista.com/inmueble/108368452/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/ed/cc/94/1344754538.webp",
+            "alt": "Living room with pale sofa, television and tiled floor",
+            "sourceUrl": "https://www.idealista.com/inmueble/108368452/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/12/65/92/1344754469.webp",
+            "alt": "Kitchen with white cupboards, cooking hob and sink",
+            "sourceUrl": "https://www.idealista.com/inmueble/108368452/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/a8/30/3d/1344754519.webp",
+            "alt": "Bedroom with double bed, bedside tables and ceiling fan",
+            "sourceUrl": "https://www.idealista.com/inmueble/108368452/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/03/4a/8a/1344754422.webp",
+            "alt": "Balcony with small table, white chairs and shade cloth",
+            "sourceUrl": "https://www.idealista.com/inmueble/108368452/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/e8/a3/23/1344754504.webp",
+            "alt": "Bathroom with bathtub, patterned shower curtain, toilet and bidet",
+            "sourceUrl": "https://www.idealista.com/inmueble/108368452/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/38/85/6d/1344754518.webp",
+            "alt": "Entrance hallway with console table, mirror and tiled floor",
+            "sourceUrl": "https://www.idealista.com/inmueble/108368452/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-13149-98816818",
+      "rank": 16,
+      "paperId": "P-13149",
+      "apartmentId": "P-98816818",
+      "title": "PAPER 012 — Santa Pola Puerto",
+      "summary": "Longer-walk fallback; both locations hidden.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Santa Pola Puerto",
+        "Santa Pola Santiago Bernabeu"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1100,
+      "poolDistance": "P-13149: Not listed; access unconfirmed.\n\nP-98816818: Not listed; access unconfirmed.",
+      "beachDistance": "P-13149: Agency advertises: 1km; port-location guesstimate midpoint 700 m (range 300-1100 m)\n\nP-98816818: Advertised: 50m; exact location hidden",
+      "groceriesDistance": "P-13149: guesstimate midpoint 400 m (range 150-650 m)\n\nP-98816818: guesstimate midpoint 250 m (range 100-400 m)",
+      "cafesDistance": "P-13149: guesstimate midpoint 250 m (range 50-450 m)\n\nP-98816818: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 1300 m (range 700-1900 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-13149",
+        "displayName": "P-13149 SunSea 4813",
+        "area": "Santa Pola Puerto",
+        "address": null,
+        "bedrooms": 1,
+        "sizeSqm": 50,
+        "monthlyRentEur": 550,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Advertised until June 2027; full requested stay unconfirmed. Furnished, fifth floor with lift and parking; no pets. Bills, deposit and heating unknown. Agency built area 50 m2 versus useful area 55 m2 is inconsistent. Exact address hidden; map evidence locates only the port district. Agency: https://sunandsearealestate.com/property/13149/apartment/winter-rental/spain/alicante/santa-pola/santa-pola/ Also appears in PAPER 011, 012.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112496499/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112496499/",
+        "photoAttribution": "SunSea via Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/f0/25/53/1471938172.webp",
+            "alt": "View between apartment buildings towards the marina and street below",
+            "sourceUrl": "https://www.idealista.com/inmueble/112496499/",
+            "attribution": "SunSea via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/2e/ae/ac/1471938185.webp",
+            "alt": "Balcony with four chairs and a round mosaic table",
+            "sourceUrl": "https://www.idealista.com/inmueble/112496499/",
+            "attribution": "SunSea via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/79/43/e2/1471938188.webp",
+            "alt": "Utility area with washing machine and wall-mounted water heater",
+            "sourceUrl": "https://www.idealista.com/inmueble/112496499/",
+            "attribution": "SunSea via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/e9/0a/2d/1471938237.webp",
+            "alt": "White fitted kitchen with gas hob, oven, sink and microwave",
+            "sourceUrl": "https://www.idealista.com/inmueble/112496499/",
+            "attribution": "SunSea via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/ab/6d/f4/1471938246.webp",
+            "alt": "Twin beds with pastel bedcovers and a fitted wooden wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/112496499/",
+            "attribution": "SunSea via Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "SunSea via Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-98816818",
+        "displayName": "P-98816818 Costasol A-188",
+        "area": "Santa Pola Santiago Bernabeu",
+        "address": "Calle del Mar, exact door hidden",
+        "bedrooms": 2,
+        "sizeSqm": 75,
+        "monthlyRentEur": 550,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "September to June advertised, year unspecified; full requested stay unconfirmed. Furnished per matching agency reference A-188, supported by photographs. Idealista advertises 75 m2 and second floor; agency says 70 m2 and third floor. These discrepancies need clarification. Lift and air conditioning advertised. Deposit EUR 1,100; bills unknown. Exact door hidden. Agency: https://www.costasolinmobiliaria.com/ficha/apartment/santa-pola/playa-levante/1578/9846768/en/ Also appears in PAPER 012, 013.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/98816818/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/98816818/",
+        "photoAttribution": "Costasol via Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/9d/1b/b4/1024713421.webp",
+            "alt": "Balcony table with street and sea view near the promenade",
+            "sourceUrl": "https://www.idealista.com/inmueble/98816818/",
+            "attribution": "Costasol via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/89/a8/7f/1024713378.webp",
+            "alt": "Bathroom with enclosed shower, toilet, vanity and washing machine",
+            "sourceUrl": "https://www.idealista.com/inmueble/98816818/",
+            "attribution": "Costasol via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/9a/86/0e/1024713380.webp",
+            "alt": "Small bedroom with white drawer bed and window",
+            "sourceUrl": "https://www.idealista.com/inmueble/98816818/",
+            "attribution": "Costasol via Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/0b/96/81/1024713409.webp",
+            "alt": "Living room with red sofa, television and dining table beside the kitchen",
+            "sourceUrl": "https://www.idealista.com/inmueble/98816818/",
+            "attribution": "Costasol via Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Costasol via Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-500866-102186697",
+      "rank": 17,
+      "paperId": "P-500866",
+      "apartmentId": "P-102186697",
+      "title": "PAPER 015 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos",
+        "Torrevieja Del Cura"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1100,
+      "poolDistance": "P-500866: Not listed; access unconfirmed.\n\nP-102186697: Not listed; access unconfirmed.",
+      "beachDistance": "P-500866: Advertised: Del Cura200m\n\nP-102186697: guesstimate midpoint 250 m (range 100-400 m)",
+      "groceriesDistance": "P-500866: Advertised: Masymas 60m\n\nP-102186697: guesstimate midpoint 200 m (range 100-300 m)",
+      "cafesDistance": "P-500866: guesstimate midpoint 150 m (range 50-250 m)\n\nP-102186697: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 350 m (range 200-500 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-500866",
+        "displayName": "P-500866 - Alegria ID 105",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 38,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Checked 22 September 2026. The date fields accepted 05/11/2026 and 28/04/2027, but Search returned an error saying the number of occupants exceeds the maximum permitted while one adult was selected. No usable complete-stay availability result was obtained; availability remains unknown. The furnished studio advert quotes EUR 500/month and has no separate bedroom. Utilities, internet, final cleaning and deposit are extra; amounts and full-stay contract price remain unverified. The description charges utilities/internet/cleaning separately while some feature fields say included; treat inclusion as unresolved. Also appears in PAPER 003, 005, 007, 015, 018.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440089eae1ef60492d0a6d4494ee7cf13bba03.jpg",
+            "alt": "Outdoor balcony with white balustrade and street view.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008762c60a036081733cf607c755de0e38f3.jpg",
+            "alt": "Studio living and dining area facing the balcony door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088650ade000393744d443b1a5cf2c2df67.jpg",
+            "alt": "Kitchen with oven, hob and red trim.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008824085648c19881a5ab35e75305554a3d.jpg",
+            "alt": "Bathroom with bathtub, shower and basin.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088f6c125176688dca66ebff69f6f6398f8.jpg",
+            "alt": "Building entrance hall and glass door toward the street.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440088768f9ad5233c884740ec2b41390b3f53.jpg",
+            "alt": "Dining table beside refrigerator and microwave.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/1725440087af5345c7728352e9a4ff82f05e414199.jpg",
+            "alt": "Studio overview with wardrobe, kitchen and entrance door.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725440087effd88a579707bab41cdc7649f9c59fa/172544008913ab1a3afa83ace7f41a7912bed6bc10.jpg",
+            "alt": "Entrance door and mirror beside the kitchen.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id105-500866.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-102186697",
+        "displayName": "P-102186697 Pedro Lorca 128",
+        "area": "Torrevieja Del Cura",
+        "address": "Calle Pedro Lorca 128, 4th with lift",
+        "bedrooms": 1,
+        "sizeSqm": 59,
+        "monthlyRentEur": 600,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Seasonal rental; months, year and full requested stay unconfirmed. Ideal for teachers; acceptance of other tenants unknown. Furnished and air conditioning advertised. Deposit EUR 1,200; bills and heating unknown. Also appears in PAPER 014, 015, 016, 021.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/102186697/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/102186697/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/7c/ba/65/1147207343.webp",
+            "alt": "Pink-walled balcony with white outdoor table and chairs",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/63/35/6c/1147207319.webp",
+            "alt": "Living-room dining corner with wooden table, chairs and television",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/62/82/7e/1147207333.webp",
+            "alt": "Double bedroom with white bed linen and wooden fitted wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/cf/5d/39/1147207158.webp",
+            "alt": "Side sea view along the street towards Playa del Cura",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-500880-102186697",
+      "rank": 18,
+      "paperId": "P-500880",
+      "apartmentId": "P-102186697",
+      "title": "PAPER 016 — Torrevieja - Del Cura / Los Locos",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja - Del Cura / Los Locos",
+        "Torrevieja Del Cura"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1100,
+      "poolDistance": "P-500880: Not listed; access unconfirmed.\n\nP-102186697: Not listed; access unconfirmed.",
+      "beachDistance": "P-500880: Advertised: beach200m; other text300-500m\n\nP-102186697: guesstimate midpoint 250 m (range 100-400 m)",
+      "groceriesDistance": "P-500880: guesstimate midpoint 150 m (range 50-250 m)\n\nP-102186697: guesstimate midpoint 200 m (range 100-300 m)",
+      "cafesDistance": "P-500880: guesstimate midpoint 150 m (range 50-250 m)\n\nP-102186697: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 550 m (range 400-700 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-500880",
+        "displayName": "P-500880 - Alegria ID 107",
+        "area": "Torrevieja - Del Cura / Los Locos",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 32,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Checked 22 September 2026. The date fields accepted 05/11/2026 and 28/04/2027, but Search returned an error saying the number of occupants exceeds the maximum permitted while one adult was selected. No usable complete-stay availability result was obtained; availability remains unknown. The furnished studio advert quotes EUR 500/month and has no separate bedroom. Utilities, internet, final cleaning and deposit are extra; amounts and full-stay contract price remain unverified. The description charges utilities/internet/cleaning separately while some feature fields say included; treat inclusion as unresolved. Also appears in PAPER 004, 005, 008, 016, 019.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+        "photoAttribution": "Alegria original gallery",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/177883740217aec872d2c8ccc91f6df760dda2013c.jpg",
+            "alt": "Building exterior with pink and cream walls and green balconies.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373971bc4f4bf49d0e37f1a14358fc7b6dc33.jpg",
+            "alt": "Glazed balcony with small table, chairs and white curtains.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373946648bce995523a2c06d6d40416ee411c.jpg",
+            "alt": "Studio living area with grey sofa and wooden storage.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/177883739694fc6b1b4d8b92530ab27ad8bd62943c.jpg",
+            "alt": "Kitchen with white cabinets, oven and washing machine.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837400e8fb7ed8a5c6c6c666bd07b9db82d128.jpg",
+            "alt": "Bathroom basin, towels and shelves.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17254425046112273ea76a312368aa8d18bc1f2ca7.jpg",
+            "alt": "Outward street view toward neighbouring facades and the road.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837400fb118e3f24c98a3b65f29542b9153c88.jpg",
+            "alt": "Entrance hallway and adjacent bathroom doorway.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/1778837401bc24238d8652d1b4e151bb933d707fdb.jpg",
+            "alt": "Communal stair landing and lift.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/17254425020c9b116c5f45a696ec4cf38e942c7d5f/17788373951bcce8544c52097005e5d5b5ce329356.jpg",
+            "alt": "Living and dining area with table and kitchen opening.",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id107-500880.html",
+            "attribution": "Alegria original gallery",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria Holiday Rentals",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-102186697",
+        "displayName": "P-102186697 Pedro Lorca 128",
+        "area": "Torrevieja Del Cura",
+        "address": "Calle Pedro Lorca 128, 4th with lift",
+        "bedrooms": 1,
+        "sizeSqm": 59,
+        "monthlyRentEur": 600,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Seasonal rental; months, year and full requested stay unconfirmed. Ideal for teachers; acceptance of other tenants unknown. Furnished and air conditioning advertised. Deposit EUR 1,200; bills and heating unknown. Also appears in PAPER 014, 015, 016, 021.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/102186697/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/102186697/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/7c/ba/65/1147207343.webp",
+            "alt": "Pink-walled balcony with white outdoor table and chairs",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/63/35/6c/1147207319.webp",
+            "alt": "Living-room dining corner with wooden table, chairs and television",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/62/82/7e/1147207333.webp",
+            "alt": "Double bedroom with white bed linen and wooden fitted wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/cf/5d/39/1147207158.webp",
+            "alt": "Side sea view along the street towards Playa del Cura",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "pair-102186697-500834",
+      "rank": 19,
+      "paperId": "P-102186697",
+      "apartmentId": "P-500834",
+      "title": "PAPER 021 — Torrevieja Del Cura",
+      "summary": "Separate furnished listings; quoted base rents only. See each source note.",
+      "status": "provisional",
+      "statusNote": "Exact-stay and terms as noted per apartment; map routes are estimates, not verified entrances.",
+      "areas": [
+        "Torrevieja Del Cura",
+        "Torrevieja Los Gases"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1100,
+      "poolDistance": "P-102186697: Not listed; access unconfirmed.\n\nP-500834: Communal on site; winter/guest access unknown",
+      "beachDistance": "P-102186697: guesstimate midpoint 250 m (range 100-400 m)\n\nP-500834: Advertised: 500m",
+      "groceriesDistance": "P-102186697: guesstimate midpoint 200 m (range 100-300 m)\n\nP-500834: Advertised: 100m",
+      "cafesDistance": "P-102186697: guesstimate midpoint 150 m (range 50-250 m)\n\nP-500834: guesstimate midpoint 150 m (range 50-250 m)",
+      "pairWalkingDistance": "guesstimate midpoint 550 m (range 350-750 m), public map/street evidence; not door-to-door.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-102186697",
+        "displayName": "P-102186697 Pedro Lorca 128",
+        "area": "Torrevieja Del Cura",
+        "address": "Calle Pedro Lorca 128, 4th with lift",
+        "bedrooms": 1,
+        "sizeSqm": 59,
+        "monthlyRentEur": 600,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Seasonal rental; months, year and full requested stay unconfirmed. Ideal for teachers; acceptance of other tenants unknown. Furnished and air conditioning advertised. Deposit EUR 1,200; bills and heating unknown. Also appears in PAPER 014, 015, 016, 021.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/102186697/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/102186697/",
+        "photoAttribution": "Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/7c/ba/65/1147207343.webp",
+            "alt": "Pink-walled balcony with white outdoor table and chairs",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/63/35/6c/1147207319.webp",
+            "alt": "Living-room dining corner with wooden table, chairs and television",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/62/82/7e/1147207333.webp",
+            "alt": "Double bedroom with white bed linen and wooden fitted wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/cf/5d/39/1147207158.webp",
+            "alt": "Side sea view along the street towards Playa del Cura",
+            "sourceUrl": "https://www.idealista.com/inmueble/102186697/",
+            "attribution": "Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista",
+        "sourceCheckedAt": "2026-09-22"
+      },
+      "apartment": {
+        "id": "P-500834",
+        "displayName": "P-500834 Alegria ID 101",
+        "area": "Torrevieja Los Gases",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 47,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "confirmed",
+        "availabilityNote": "On 22 September 2026, the original listing search returned Available for check-in 05/11/2026 and check-out 28/04/2027 with one adult; EUR 500/month remained displayed. This confirms source availability at checking time, not a booking or binding all-in offer. Furnished studio with sofa beds, third floor with lift, air conditioning, electric heating and communal pool. Utilities, internet, cleaning and deposit extra; internet inclusion conflicts with the feature table. No pets or smoking. Winter pool and partner guest access unknown. Map location is a guesstimate neighborhood anchor near Los Gases/Galeon, with approximately 150 m location uncertainty, not a verified entrance. Also appears in PAPER 017, 018, 019, 020, 021.",
+        "originalListingUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+        "photoSourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+        "photoAttribution": "Alegria",
+        "photos": [
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396603efdcc4010db180befb5b9bcb9aad03a3.jpg",
+            "alt": "Communal courtyard pool viewed from the apartment balcony",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396604cbd23cca48de3dac81179daa6d0b5d50.jpg",
+            "alt": "Studio living room with blue sofas, armchair and balcony doors",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396604fb20b0130e81a49014bfd7636a6a3625.jpg",
+            "alt": "Yellow-tiled bathroom with shower, washing machine and basin",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/17253966056edc3f40c4f2e7ffb3bcf984036708a3.jpg",
+            "alt": "White fitted kitchen with ceramic hob, refrigerator and small dining table",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396605aff5f8c3d35f9a6629689b0f24591436.jpg",
+            "alt": "Glazed balcony with blue patterned curtains and outdoor chairs",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          },
+          {
+            "url": "https://www.alegria-rent.com/en/long-term-rental/fotos/2/1725396603e424be2b42ac4100bac4777215fbe5bd/1725396603f1876210bf356451172ae6de607bba13.jpg",
+            "alt": "Entrance hallway with mirror and blue trim beside the kitchen",
+            "sourceUrl": "https://www.alegria-rent.com/en/long-term-rental/apartment-torrevieja-id101-500834.html",
+            "attribution": "Alegria",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Alegria",
+        "sourceCheckedAt": "2026-09-22"
+      }
+    }
+  ],
+  "budgetExceptions": []
+}

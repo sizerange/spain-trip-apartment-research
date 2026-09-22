@@ -1,6 +1,8 @@
 name: Import ready apartment research
 
 on:
+  issues:
+    types: [labeled]
   schedule:
     - cron: "0 9 * * *"
     - cron: "0 10 * * *"
@@ -16,15 +18,20 @@ concurrency:
 
 jobs:
   import:
+    if: github.event_name != 'issues' || github.event.label.name == 'ready-for-import'
     runs-on: ubuntu-latest
     steps:
       - name: Check Stockholm schedule
         id: schedule
         shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE_CRON: ${{ github.event.schedule }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "$EVENT_NAME" != "schedule" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
-          elif [ "$(TZ=Europe/Stockholm date +%H:%M)" = "11:00" ]; then
+          elif { [ "$(TZ=Europe/Stockholm date +%z)" = "+0200" ] && [ "$SCHEDULE_CRON" = "0 9 * * *" ]; } ||
+               { [ "$(TZ=Europe/Stockholm date +%z)" = "+0100" ] && [ "$SCHEDULE_CRON" = "0 10 * * *" ]; }; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
