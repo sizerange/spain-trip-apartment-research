@@ -11,6 +11,6 @@ if (!/^research\/publications\/[a-zA-Z0-9_-]+\.json$/.test(path ?? "") || !/^[a-
 const bytes = execFileSync("git", ["show", `${commit}:${path}`], { maxBuffer: MAX_PUBLICATION_BYTES + 1 });
 if (bytes.byteLength > MAX_PUBLICATION_BYTES) throw new Error("Publication exceeds 2 MiB");
 const publication = JSON.parse(new TextDecoder("utf-8", { fatal: true }).decode(bytes));
-if (!Array.isArray(publication.pairs) || publication.pairs.length === 0) throw new Error("Publication must have at least one pair; validate the full contract before marking ready");
+if (!Array.isArray(publication.pairs) || (!publication.pairs.length && !publication.archivePairs?.length && !publication.restorePairIds?.length)) throw new Error("Publication must have pairs or explicit archive/restore requests; validate the full contract before marking ready");
 const descriptor = { publicationFile: { path, commit, sha256: createHash("sha256").update(bytes).digest("hex") } };
 console.log(`Research publication: ${publication.reviewedAt}\n\n${publication.pairs.length} pairs. Complete publication stored in a pinned repository file. Validate the complete payload before applying ready-for-import.\n\n\`\`\`json\n${JSON.stringify(descriptor, null, 2)}\n\`\`\``);

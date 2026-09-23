@@ -2,6 +2,8 @@
 
 Read this entire file before changing the project.
 
+Incremental import update: see `INCREMENTAL_PUBLICATIONS.md`. Once deployed, imports retain omitted pairs, update matches by stable apartment composition, and add new pairs. Removal requires `archivePairs` with an explicit reason; archived pairs require explicit restoration. The additive database column and Replit API publish must be deployed before relying on this behavior. Research files should still recheck retained evidence and include consistent updates to all pairs sharing a changed apartment.
+
 Research transport update: see `PUBLICATION_FILE_WORKFLOW.md`. A submission may contain exactly one fenced JSON `publicationFile` descriptor referencing the complete validated publication at an immutable commit in this repository. This supersedes the inline-only wording below. Store large publications as research data files; never omit valid combinations to fit GitHub's issue-body limit. The ready-label event starts import, with the scheduled 11:00 Stockholm run as fallback. Deployment activation requires syncing/publishing the API's larger import request limit first. Existing tokens, validation and atomic publishing are unchanged.
 
 For complete website editing or takeover, also read `CHATGPT_SITE_TAKEOVER.md`. The repository now contains a full application-source mirror, but GitHub-only changes still require Replit validation and publishing.

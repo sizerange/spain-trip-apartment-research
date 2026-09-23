@@ -20,7 +20,7 @@
     },
     "pairs": {
       "type": "array",
-      "minItems": 1,
+      "minItems": 0,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -497,6 +497,64 @@
           }
         }
       }
+    },
+    "archivePairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pairId",
+          "reason"
+        ],
+        "properties": {
+          "pairId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 20
+          }
+        }
+      }
+    },
+    "restorePairIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
     }
-  }
+  },
+  "anyOf": [
+    {
+      "properties": {
+        "pairs": {
+          "minItems": 1
+        }
+      }
+    },
+    {
+      "required": [
+        "archivePairs"
+      ],
+      "properties": {
+        "archivePairs": {
+          "minItems": 1
+        }
+      }
+    },
+    {
+      "required": [
+        "restorePairIds"
+      ],
+      "properties": {
+        "restorePairIds": {
+          "minItems": 1
+        }
+      }
+    }
+  ]
 }

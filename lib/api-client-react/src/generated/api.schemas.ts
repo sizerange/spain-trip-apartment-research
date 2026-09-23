@@ -171,13 +171,27 @@ export interface ApartmentPairBudgetException {
   reason: string;
 }
 
+export type ApartmentPairPublicationInputArchivePairsItem = {
+  /** @minLength 1 */
+  pairId: string;
+  /** @minLength 20 */
+  reason: string;
+};
+
 export interface ApartmentPairPublicationInput {
   /** @minLength 1 */
   reviewedAt: string;
   /** @minLength 1 */
   disclaimer: string;
-  /** @minItems 1 */
+  /** @minItems 0 */
   pairs: ApartmentPair[];
+  /** Explicit removals by existing pair ID. Omission never archives a pair. Reasons are retained with publication history. */
+  archivePairs?: ApartmentPairPublicationInputArchivePairsItem[];
+  /**
+     * Explicitly restore archived pair IDs; include a freshly checked complete pair with the same apartment composition in pairs.
+     * @items.minLength 1
+     */
+  restorePairIds?: string[];
   budgetExceptions: ApartmentPairBudgetException[];
 }
 

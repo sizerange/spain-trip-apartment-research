@@ -12,6 +12,7 @@ export * from './apartmentPairImportResult';
 export * from './apartmentPairListing';
 export * from './apartmentPairListingAvailabilityStatus';
 export * from './apartmentPairPublicationInput';
+export * from './apartmentPairPublicationInputArchivePairsItem';
 export * from './apartmentPairsResponse';
 export * from './apartmentPairStatus';
 export * from './apartmentPhoto';

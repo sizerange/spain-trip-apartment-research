@@ -13,6 +13,7 @@ import {
   ImportApartmentPairPublicationResponse,
 } from "@workspace/api-zod";
 import { validatePairAffordability } from "./apartment-pair-affordability.js";
+import { mergeApartmentPairs, PairMergeError } from "./apartment-pair-merge.js";
 
 const router: IRouter = Router();
 
@@ -293,10 +294,11 @@ function hasValidImporterToken(req: Request): "valid" | "invalid" | "unconfigure
 
 function validatePublication(
   publication: typeof ImportApartmentPairPublicationBody._type,
+  allowEmpty = false,
 ): string[] {
   const errors: string[] = [];
-  if (publication.pairs.length === 0) {
-    errors.push("A publication must contain at least one apartment pair");
+  if (!allowEmpty && publication.pairs.length === 0 && !publication.archivePairs?.length && !publication.restorePairIds?.length) {
+    errors.push("An import must contain pairs or explicit archive/restore requests");
   }
   const pairIds = new Set<string>();
   const compositions = new Set<string>();
@@ -366,6 +368,8 @@ type RecoveredPublication = {
 const publicationMetadataSchema = ImportApartmentPairPublicationBody.pick({
   reviewedAt: true,
   disclaimer: true,
+  archivePairs: true,
+  restorePairIds: true,
 });
 const apartmentPairSchema =
   ImportApartmentPairPublicationBody.shape.pairs.element;
@@ -643,31 +647,54 @@ router.post(
       return;
     }
 
-    const publication = await db.transaction(async (tx) => {
-      await tx
-        .update(apartmentPairPublicationsTable)
-        .set({ active: false })
-        .where(eq(apartmentPairPublicationsTable.active, true));
+    let publication;
+    try {
+      publication = await db.transaction(async (tx) => {
+        // Serialize the read/merge/write, including the first import with no row to lock.
+        // Concurrent ready-label and scheduled imports must both retain their additions.
+        await tx.execute(sql`select pg_advisory_xact_lock(1936744801, 1)`);
+        const [active] = await tx.select().from(apartmentPairPublicationsTable)
+          .where(eq(apartmentPairPublicationsTable.active, true))
+          .orderBy(desc(apartmentPairPublicationsTable.importedAt)).limit(1);
+        const current = active ? ImportApartmentPairPublicationBody.parse({
+          reviewedAt: active.reviewedAt, disclaimer: active.disclaimer,
+          pairs: active.pairs, budgetExceptions: active.budgetExceptions,
+        }) : null;
+        const merged = mergeApartmentPairs(current, active?.pairArchives ?? [], recovered.publication, new Date().toISOString());
+        const mergedErrors = validatePublication(merged.publication, true);
+        if (mergedErrors.length) throw new PairMergeError(mergedErrors.join("; "));
+        await tx
+          .update(apartmentPairPublicationsTable)
+          .set({ active: false })
+          .where(eq(apartmentPairPublicationsTable.active, true));
 
-      const [inserted] = await tx
-        .insert(apartmentPairPublicationsTable)
-        .values({
-          reviewedAt: recovered.publication.reviewedAt,
-          disclaimer: recovered.publication.disclaimer,
-          pairs: recovered.publication.pairs,
-          budgetExceptions: recovered.publication.budgetExceptions,
-          source: "chatgpt-import",
-          active: true,
-        })
-        .returning();
+        const [inserted] = await tx
+          .insert(apartmentPairPublicationsTable)
+          .values({
+            reviewedAt: merged.publication.reviewedAt,
+            disclaimer: merged.publication.disclaimer,
+            pairs: merged.publication.pairs,
+            budgetExceptions: merged.publication.budgetExceptions,
+            pairArchives: merged.archives,
+            source: "chatgpt-import",
+            active: true,
+          })
+          .returning();
 
-      return inserted;
-    });
+        return inserted;
+      });
+    } catch (error) {
+      if (error instanceof PairMergeError) {
+        res.status(400).json({ error: error.message });
+        return;
+      }
+      throw error;
+    }
 
     req.log.info(
       {
         publicationId: publication.id,
-        total: recovered.publication.pairs.length,
+        total: publication.pairs.length,
         ignoredPairs: recovered.ignoredPairs,
       },
       "Activated apartment-pair publication",
@@ -677,7 +704,7 @@ router.post(
       ImportApartmentPairPublicationResponse.parse({
         publicationId: publication.id,
         importedAt: publication.importedAt.toISOString(),
-        total: recovered.publication.pairs.length,
+        total: publication.pairs.length,
       }),
     );
   },

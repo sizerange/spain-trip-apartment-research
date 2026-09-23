@@ -9,6 +9,13 @@ import {
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod/v4";
 
+export type PairArchive = {
+  pairId: string;
+  apartmentIds: [string, string];
+  reason: string;
+  archivedAt: string;
+};
+
 export const apartmentPairPublicationsTable = pgTable(
   "apartment_pair_publications",
   {
@@ -17,6 +24,7 @@ export const apartmentPairPublicationsTable = pgTable(
     disclaimer: text("disclaimer").notNull(),
     pairs: jsonb("pairs").$type<unknown[]>().notNull(),
     budgetExceptions: jsonb("budget_exceptions").$type<unknown[]>().notNull(),
+    pairArchives: jsonb("pair_archives").$type<PairArchive[]>().notNull().default([]),
     source: text("source").notNull().default("chatgpt-import"),
     active: boolean("active").notNull().default(true),
     importedAt: timestamp("imported_at", { withTimezone: true })

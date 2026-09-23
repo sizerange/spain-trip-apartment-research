@@ -7,13 +7,21 @@
  */
 import type { ApartmentPair } from './apartmentPair';
 import type { ApartmentPairBudgetException } from './apartmentPairBudgetException';
+import type { ApartmentPairPublicationInputArchivePairsItem } from './apartmentPairPublicationInputArchivePairsItem';
 
 export interface ApartmentPairPublicationInput {
   /** @minLength 1 */
   reviewedAt: string;
   /** @minLength 1 */
   disclaimer: string;
-  /** @minItems 1 */
+  /** @minItems 0 */
   pairs: ApartmentPair[];
+  /** Explicit removals by existing pair ID. Omission never archives a pair. Reasons are retained with publication history. */
+  archivePairs?: ApartmentPairPublicationInputArchivePairsItem[];
+  /**
+     * Explicitly restore archived pair IDs; include a freshly checked complete pair with the same apartment composition in pairs.
+     * @items.minLength 1
+     */
+  restorePairIds?: string[];
   budgetExceptions: ApartmentPairBudgetException[];
 }
