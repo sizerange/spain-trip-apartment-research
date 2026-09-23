@@ -175,6 +175,16 @@ describe("incremental apartment publications", () => {
         mergeApartmentPairs(
           current,
           [],
+          publication([pair("a")], { restorePairIds: ["a"] }),
+          date,
+        ),
+      /requires an archived pair/,
+    );
+    assert.throws(
+      () =>
+        mergeApartmentPairs(
+          current,
+          [],
           publication([], {
             archivePairs: [
               { pairId: "missing", reason: "A sufficiently detailed reason." },

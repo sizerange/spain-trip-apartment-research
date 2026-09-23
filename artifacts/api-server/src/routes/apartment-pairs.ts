@@ -14,6 +14,7 @@ import {
 } from "@workspace/api-zod";
 import { validatePairAffordability } from "./apartment-pair-affordability.js";
 import { mergeApartmentPairs, PairMergeError } from "./apartment-pair-merge.js";
+import { canRecoverPairImport } from "./apartment-pair-recovery-policy.js";
 
 const router: IRouter = Router();
 
@@ -438,6 +439,9 @@ export function recoverMostlyValidPublication(
   if (!input || typeof input !== "object" || Array.isArray(input)) return null;
 
   const raw = input as Record<string, unknown>;
+  // Archive and restore are destructive controls. Never execute them after
+  // dropping an invalid submitted pair during best-effort recovery.
+  if (!canRecoverPairImport(raw)) return null;
   const metadata = publicationMetadataSchema.safeParse(raw);
   if (!metadata.success || !Array.isArray(raw.pairs) || raw.pairs.length === 0) {
     return null;

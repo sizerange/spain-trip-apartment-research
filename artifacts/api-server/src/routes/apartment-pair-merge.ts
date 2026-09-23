@@ -115,8 +115,7 @@ export function mergeApartmentPairs(
   }
   for (const id of restoreIds) {
     const archived = savedArchives.find((item) => item.pairId === id);
-    const key = archived ? archiveComposition(archived) : ids.get(id);
-    if (!key || !incomingKeys.has(key))
+    if (!archived || !incomingKeys.has(archiveComposition(archived)))
       throw new PairMergeError(
         `Restore ${id} requires an archived pair and a complete matching pair record`,
       );
