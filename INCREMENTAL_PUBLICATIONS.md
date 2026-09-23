@@ -1,9 +1,11 @@
 # Keep earlier apartment matches
 
 After deploying this change, imports merge into the latest active publication.
-Ten existing pairs plus fifty distinct new pairs produce sixty pairs. A request
+For example, ten existing pairs plus fifty distinct new pairs produce sixty pairs. A request
 containing fifty pairs that already includes the original ten produces fifty.
 Missing pairs are retained, not deleted. Older publication snapshots remain stored.
+The published site already has 65 active pairs from research issue #9; the first
+incremental import will merge against those 65, not an older ten-pair snapshot.
 
 Pairs are matched by the unordered combination of their stable apartment IDs.
 An updated match retains its existing pair ID even if the submitted ID or apartment
@@ -54,8 +56,8 @@ The response `total` is the complete resulting active count, not the submitted c
 4. In a test database/preview, verify 10+50=60, duplicate update, explicit archive,
    stale snapshot replay, explicit restore, simultaneous imports, and rejected
    conflicting updates leaving the previous active publication intact.
-5. Only then release held research issue #9. Its existing payload is compatible;
-   all previous live combinations are present in that complete file.
+5. Do not rerun research issue #9: it was already imported and is live with 65
+   pairs. Verify a new import retains these existing combinations.
 
 GitHub source changes alone do not update production. No live migration or publish
 has been performed by this PR. The static terrain-map image still needs separate
