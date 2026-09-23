@@ -40,3 +40,6 @@ Create one GitHub issue with the title `Research publication: YYYY-MM-DD`. Inclu
 Apply `ready-for-import` only when the publication contains at least one valid pair. If no pair qualifies, create an informational issue without `ready-for-import` and explain the result. Never submit an empty publication to the importer.
 
 The GitHub Actions workflow `Import ready apartment research` starts when the ready label is applied, with an intended 11:00 Europe/Stockholm fallback and manual dispatch. It handles validation and publication. Invalid submissions receive `import-rejected` and do not change the live site.
+# Incremental publication rule
+
+Read `INCREMENTAL_PUBLICATIONS.md`. After its deployment, omitted pairs are retained by the importer. Do not use omission to remove a listing. Submit explicit reasoned `archivePairs` requests for confirmed removals, and consistent complete updates for all pairs sharing changed apartment facts. Old archived matches cannot return without explicit restoration and fresh source evidence. Verify Replit deployment before relying on this behavior.

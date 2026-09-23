@@ -305,7 +305,7 @@ export const getImportApartmentPairPublicationUrl = () => {
 }
 
 /**
- * Atomically replaces the active apartment-pair publication. Requires the private importer bearer token.
+ * Atomically merges into the active publication. Omitted pairs remain visible; matching apartment compositions update under their existing pair ID. Explicit reasoned archive requests remove pairs, and archived pairs require explicit restoration. Requires the private importer bearer token.
  * @summary Import a validated apartment-pair publication
  */
 export const importApartmentPairPublication = async (apartmentPairPublicationInput: ApartmentPairPublicationInput, options?: Parameters<typeof customFetch>[1]): Promise<ApartmentPairImportResult> => {

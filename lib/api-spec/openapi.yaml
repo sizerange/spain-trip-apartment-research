@@ -86,7 +86,7 @@ paths:
       operationId: importApartmentPairPublication
       tags: [apartment-pairs]
       summary: Import a validated apartment-pair publication
-      description: Atomically replaces the active apartment-pair publication. Requires the private importer bearer token.
+      description: Atomically merges into the active publication. Omitted pairs remain visible; matching apartment compositions update under their existing pair ID. Explicit reasoned archive requests remove pairs, and archived pairs require explicit restoration. Requires the private importer bearer token.
       security:
         - apartmentImporterToken: []
       requestBody:
@@ -422,9 +422,28 @@ components:
           minLength: 1
         pairs:
           type: array
-          minItems: 1
+          minItems: 0
           items:
             $ref: "#/components/schemas/ApartmentPair"
+        archivePairs:
+          description: Explicit removals by existing pair ID. Omission never archives a pair. Reasons are retained with publication history.
+          type: array
+          items:
+            type: object
+            properties:
+              pairId:
+                type: string
+                minLength: 1
+              reason:
+                type: string
+                minLength: 20
+            required: [pairId, reason]
+        restorePairIds:
+          description: Explicitly restore archived pair IDs; include a freshly checked complete pair with the same apartment composition in pairs.
+          type: array
+          items:
+            type: string
+            minLength: 1
         budgetExceptions:
           type: array
           items:

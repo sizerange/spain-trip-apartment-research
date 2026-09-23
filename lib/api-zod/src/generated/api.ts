@@ -179,10 +179,15 @@ export const GetApartmentPairsResponse = zod.object({
 
 
 /**
- * Atomically replaces the active apartment-pair publication. Requires the private importer bearer token.
+ * Atomically merges into the active publication. Omitted pairs remain visible; matching apartment compositions update under their existing pair ID. Explicit reasoned archive requests remove pairs, and archived pairs require explicit restoration. Requires the private importer bearer token.
  * @summary Import a validated apartment-pair publication
  */
 
+
+export const importApartmentPairPublicationBodyPairsMin = 0;
+
+
+export const importApartmentPairPublicationBodyArchivePairsItemReasonMin = 20;
 
 
 
@@ -259,7 +264,12 @@ export const ImportApartmentPairPublicationBody = zod.object({
   "sourceName": zod.string(),
   "sourceCheckedAt": zod.string()
 })
-})).min(1),
+})).min(importApartmentPairPublicationBodyPairsMin),
+  "archivePairs": zod.array(zod.object({
+  "pairId": zod.string().min(1),
+  "reason": zod.string().min(importApartmentPairPublicationBodyArchivePairsItemReasonMin)
+})).optional().describe('Explicit removals by existing pair ID. Omission never archives a pair. Reasons are retained with publication history.'),
+  "restorePairIds": zod.array(zod.string().min(1)).optional().describe('Explicitly restore archived pair IDs; include a freshly checked complete pair with the same apartment composition in pairs.'),
   "budgetExceptions": zod.array(zod.object({
   "pairId": zod.string().min(1),
   "reason": zod.string().min(importApartmentPairPublicationBodyBudgetExceptionsItemReasonMin)

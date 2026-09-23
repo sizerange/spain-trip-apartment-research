@@ -1,5 +1,7 @@
 # Complete research files and automatic imports
 
+Pair retention and explicit archive/restore behavior are documented in `INCREMENTAL_PUBLICATIONS.md`. After that change is deployed, file and inline imports both merge into the active pair set; omission is not deletion. Archive-only requests may contain an empty `pairs` array and explicit `archivePairs` instructions.
+
 GitHub issue bodies have a 65,536-character limit. Repeating apartments and full photo galleries in every pair can exceed it. Do not drop pairs or photographs to fit an issue. Store the unchanged API publication JSON in `research/publications/NAME.json`; a small issue references its exact commit and SHA-256 digest. Existing inline publications remain supported.
 
 ## One-time activation
