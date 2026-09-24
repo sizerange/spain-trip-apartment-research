@@ -1,0 +1,1279 @@
+{
+  "reviewedAt": "2026-09-24",
+  "disclaimer": "Incremental research update for 5 November 2026-28 April 2027. New records were checked on 24 September; retained pairs keep their earlier source-check dates. All new pairs are provisional: complete-stay availability and final terms are unconfirmed. Totals use quoted monthly base rents; bills, deposits and fees can be additional. Numeric guesstimates are approximate, with original evidence retained in the research ledger. Map-point distances are not verified doorway walks; longer walks are marked as fallbacks. Santiago de la Ribera is in Murcia and was explicitly added to the search scope. The static terrain map requires separate Replit review and may show earlier research. No owners contacted, personal information submitted or bookings made.",
+  "pairs": [
+    {
+      "id": "research-112306284-112456704",
+      "rank": 1,
+      "paperId": "P-112306284",
+      "apartmentId": "P-112456704",
+      "title": "PAPER 073 — Guardamar del Segura",
+      "summary": "Two distinct furnished listings with combined quoted base rent of EUR 950/month.",
+      "status": "provisional",
+      "statusNote": "Full-stay availability is unconfirmed. Seasonal or long-term terms, tenant acceptance, bills and precise locations need confirmation. Quoted base rents alone support the budget arithmetic.",
+      "areas": [
+        "Guardamar del Segura"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 950,
+      "pairWalkingDistance": "About 500 m (guesstimate); public map-point route, not verified door-to-door. Hidden addresses or unresolved buildings make apparent closeness uncertain.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-112306284",
+        "displayName": "P-112306284 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": "Calle Miguel Hernandez 118, Guardamar del Segura",
+        "bedrooms": 2,
+        "sizeSqm": 75,
+        "monthlyRentEur": 450,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "School-season rental, not annual; no explicit teachers-only restriction. Furnished third floor with lift, two bedrooms, terrace, air conditioning and electric heating. Maximum one occupant. Deposit EUR 900. Also for sale. Bills and internet not stated. No pool advertised; a roof photograph does not establish roof access. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance. Also appears in PAPER 073, 074, 075, 076, 077, 078.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112306284/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112306284/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/35/d6/1f/1412225766.webp",
+            "alt": "Balcony with table, chairs, plants and view toward nearby streets",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d2/ff/3a/1412225794.webp",
+            "alt": "Bedroom with double bed and fitted wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/3a/b6/d2/1411538143.webp",
+            "alt": "Living and dining room with red sofa and dining table",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d8/1e/6a/1411538109.webp",
+            "alt": "Outward view over the street intersection and neighbouring buildings",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "apartment": {
+        "id": "P-112456704",
+        "displayName": "P-112456704 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 50,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Long-term furnished studio with sofa bed and folding bed; no separate bedroom. Second floor with lift, air conditioning and terrace. Winter-only acceptance is unconfirmed. Deposit EUR 500; optional garage EUR 50/month extra. No pets. Bills, internet and heating not stated. No pool advertised. Cross-post 101043482 is the same home, not another apartment. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Exact address withheld or building unresolved; map distances use an approximate neighbourhood anchor and closeness remains unconfirmed. Also appears in PAPER 068, 072, 073.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112456704/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112456704/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/b1/dc/0f/1476619293.webp",
+            "alt": "Balcony with striped awning and view of neighbouring building",
+            "sourceUrl": "https://www.idealista.com/inmueble/112456704/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/95/9a/5b/1476619289.webp",
+            "alt": "Studio living and sleeping area with sofa-bed and balcony access",
+            "sourceUrl": "https://www.idealista.com/inmueble/112456704/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/ae/ee/4f/1476619194.webp",
+            "alt": "Bathroom with bath, toilet and bidet",
+            "sourceUrl": "https://www.idealista.com/inmueble/112456704/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/c6/95/86/1476619305.webp",
+            "alt": "Kitchen with hob, fridge, microwave and washing machine",
+            "sourceUrl": "https://www.idealista.com/inmueble/112456704/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "poolDistance": "P-112306284: No pool advertised; access not verified.\n\nP-112456704: No pool advertised; access not verified.",
+      "beachDistance": "P-112306284: About 600 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.\n\nP-112456704: About 300 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.",
+      "groceriesDistance": "P-112306284: About 210 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.\n\nP-112456704: About 500 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.",
+      "cafesDistance": "P-112306284: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified.\n\nP-112456704: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified."
+    },
+    {
+      "id": "research-107971610-112614156",
+      "rank": 2,
+      "paperId": "P-107971610",
+      "apartmentId": "P-112614156",
+      "title": "PAPER 069 — Santiago de la Ribera, Murcia",
+      "summary": "Two distinct furnished listings with combined quoted base rent of EUR 1020/month.",
+      "status": "provisional",
+      "statusNote": "Full-stay availability is unconfirmed. Seasonal or long-term terms, tenant acceptance, bills and precise locations need confirmation. Quoted base rents alone support the budget arithmetic.",
+      "areas": [
+        "Santiago de la Ribera, Murcia"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1020,
+      "pairWalkingDistance": "About 500 m (guesstimate); public map-point route, not verified door-to-door. Hidden addresses or unresolved buildings make apparent closeness uncertain.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-107971610",
+        "displayName": "P-107971610 - Santiago de la Ribera, Murcia",
+        "area": "Santiago de la Ribera, Murcia",
+        "address": "Calle San Martin de Porres 82, Santiago de la Ribera, San Javier, Murcia",
+        "bedrooms": 1,
+        "sizeSqm": 41,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Annual rental from 2026; acceptance of the requested winter-only stay is unconfirmed. Furnished ground floor, no lift. Internet included; hot/cold air conditioning in the description conflicts with the no-heating feature. Maximum two occupants. Deposit EUR 500. Other bills not stated. No pool advertised. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance. Also appears in PAPER 069, 070, 071.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/107971610/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/107971610/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/31/2a/31/1329858562.webp",
+            "alt": "Building exterior with open staircase and Arcos de Mar 2 entrance",
+            "sourceUrl": "https://www.idealista.com/inmueble/107971610/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/57/de/5c/1329858561.webp",
+            "alt": "Living and dining room with grey sofa and air conditioner",
+            "sourceUrl": "https://www.idealista.com/inmueble/107971610/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/3d/7d/83/1329858573.webp",
+            "alt": "Bedroom with two single beds",
+            "sourceUrl": "https://www.idealista.com/inmueble/107971610/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/8d/8c/fd/1329858549.webp",
+            "alt": "Covered balcony with two chairs and courtyard outlook",
+            "sourceUrl": "https://www.idealista.com/inmueble/107971610/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "apartment": {
+        "id": "P-112614156",
+        "displayName": "P-112614156 - Santiago de la Ribera, Murcia",
+        "area": "Santiago de la Ribera, Murcia",
+        "address": "Avenida Virgen de Loreto, Santiago de la Ribera, San Javier, Murcia (number withheld)",
+        "bedrooms": 2,
+        "sizeSqm": 67,
+        "monthlyRentEur": 520,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Seasonal September-June rental, year unspecified. Furnished second floor without lift, air conditioning, no heating, communal pool and garden. Teachers, military staff and professionals described as ideal tenants, without an explicit exclusive restriction. Deposit EUR 1,040. Also for sale. Garage appears in photos, but inclusion is unconfirmed. Bills and internet not stated. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Exact address withheld or building unresolved; map distances use an approximate neighbourhood anchor and closeness remains unconfirmed.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112614156/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112614156/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/20/ef/6b/1457067668.webp",
+            "alt": "Balcony with striped awning, table and neighbourhood outlook",
+            "sourceUrl": "https://www.idealista.com/inmueble/112614156/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/04/8f/69/1457067672.webp",
+            "alt": "Living room with corner sofa and small dining table",
+            "sourceUrl": "https://www.idealista.com/inmueble/112614156/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/c9/c8/7c/1457067699.webp",
+            "alt": "Garage shown in listing gallery; rental inclusion unconfirmed",
+            "sourceUrl": "https://www.idealista.com/inmueble/112614156/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/6a/2c/83/1457067706.webp",
+            "alt": "Kitchen with microwave, hob and white cabinets",
+            "sourceUrl": "https://www.idealista.com/inmueble/112614156/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "poolDistance": "P-107971610: No pool advertised; access not verified.\n\nP-112614156: Communal pool advertised; winter opening and partner guest access unconfirmed.",
+      "beachDistance": "P-107971610: Advertised 100 m to the sea; walking route unverified.\n\nP-112614156: About 300 m (guesstimate) from the listing area near Playa Colon; exact address hidden.",
+      "groceriesDistance": "P-107971610: About 650 m (guesstimate) to Pardo, Calle O'Shea 8; public map-point route, not a verified doorway walk or necessarily the nearest shop.\n\nP-112614156: About 1200 m (guesstimate) to Pardo, Calle O'Shea 8; public map-point route, not a verified doorway walk or necessarily the nearest shop.",
+      "cafesDistance": "P-107971610: Not verified.\n\nP-112614156: Not verified."
+    },
+    {
+      "id": "research-112306284-112374888",
+      "rank": 3,
+      "paperId": "P-112306284",
+      "apartmentId": "P-112374888",
+      "title": "PAPER 075 — Guardamar del Segura",
+      "summary": "Two distinct furnished listings with combined quoted base rent of EUR 1050/month.",
+      "status": "provisional",
+      "statusNote": "Full-stay availability is unconfirmed. Seasonal or long-term terms, tenant acceptance, bills and precise locations need confirmation. Quoted base rents alone support the budget arithmetic.",
+      "areas": [
+        "Guardamar del Segura"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1050,
+      "pairWalkingDistance": "About 500 m (guesstimate); public map-point route, not verified door-to-door. Hidden addresses or unresolved buildings make apparent closeness uncertain.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-112306284",
+        "displayName": "P-112306284 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": "Calle Miguel Hernandez 118, Guardamar del Segura",
+        "bedrooms": 2,
+        "sizeSqm": 75,
+        "monthlyRentEur": 450,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "School-season rental, not annual; no explicit teachers-only restriction. Furnished third floor with lift, two bedrooms, terrace, air conditioning and electric heating. Maximum one occupant. Deposit EUR 900. Also for sale. Bills and internet not stated. No pool advertised; a roof photograph does not establish roof access. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance. Also appears in PAPER 073, 074, 075, 076, 077, 078.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112306284/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112306284/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/35/d6/1f/1412225766.webp",
+            "alt": "Balcony with table, chairs, plants and view toward nearby streets",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d2/ff/3a/1412225794.webp",
+            "alt": "Bedroom with double bed and fitted wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/3a/b6/d2/1411538143.webp",
+            "alt": "Living and dining room with red sofa and dining table",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d8/1e/6a/1411538109.webp",
+            "alt": "Outward view over the street intersection and neighbouring buildings",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "apartment": {
+        "id": "P-112374888",
+        "displayName": "P-112374888 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": "Plaza Porticada area, exact address withheld",
+        "bedrooms": 1,
+        "sizeSqm": 55,
+        "monthlyRentEur": 600,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Long-term rental from September; winter-only acceptance is unconfirmed. Furnished first floor with lift, one bedroom, two bathrooms, living-room air conditioning and utility room. Deposit EUR 600. Bills, internet and heating not stated. No pool advertised. Gallery includes different furnishing arrangements; current exact contents need confirmation. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Exact address withheld or building unresolved; map distances use an approximate neighbourhood anchor and closeness remains unconfirmed. Also appears in PAPER 072, 075.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112374888/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112374888/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/99/87/0e/1476970067.webp",
+            "alt": "Outward view through dining window toward trees and surrounding buildings",
+            "sourceUrl": "https://www.idealista.com/inmueble/112374888/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/23/62/04/1476970066.webp",
+            "alt": "Living room with grey sofa, coffee table and dining area",
+            "sourceUrl": "https://www.idealista.com/inmueble/112374888/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d9/72/bb/1476970070.webp",
+            "alt": "Equipped kitchen with washing machine and hob",
+            "sourceUrl": "https://www.idealista.com/inmueble/112374888/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/85/ce/48/1476970071.webp",
+            "alt": "Bedroom with double bed and bedside lights",
+            "sourceUrl": "https://www.idealista.com/inmueble/112374888/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "poolDistance": "P-112306284: No pool advertised; access not verified.\n\nP-112374888: No pool advertised; access not verified.",
+      "beachDistance": "P-112306284: About 600 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.\n\nP-112374888: About 300 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.",
+      "groceriesDistance": "P-112306284: About 210 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.\n\nP-112374888: About 500 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.",
+      "cafesDistance": "P-112306284: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified.\n\nP-112374888: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified."
+    },
+    {
+      "id": "research-112306284-13164",
+      "rank": 4,
+      "paperId": "P-112306284",
+      "apartmentId": "P-13164",
+      "title": "PAPER 074 — Guardamar del Segura",
+      "summary": "Two distinct furnished listings with combined quoted base rent of EUR 1050/month. Longer-walk fallback, beyond the preferred close pairing.",
+      "status": "provisional",
+      "statusNote": "Full-stay availability is unconfirmed. Seasonal or long-term terms, tenant acceptance, bills and precise locations need confirmation. Quoted base rents alone support the budget arithmetic.",
+      "areas": [
+        "Guardamar del Segura"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1050,
+      "pairWalkingDistance": "About 900 m (guesstimate); public map-point route, not verified door-to-door. Entrance locations remain unverified.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-112306284",
+        "displayName": "P-112306284 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": "Calle Miguel Hernandez 118, Guardamar del Segura",
+        "bedrooms": 2,
+        "sizeSqm": 75,
+        "monthlyRentEur": 450,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "School-season rental, not annual; no explicit teachers-only restriction. Furnished third floor with lift, two bedrooms, terrace, air conditioning and electric heating. Maximum one occupant. Deposit EUR 900. Also for sale. Bills and internet not stated. No pool advertised; a roof photograph does not establish roof access. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance. Also appears in PAPER 073, 074, 075, 076, 077, 078.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112306284/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112306284/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/35/d6/1f/1412225766.webp",
+            "alt": "Balcony with table, chairs, plants and view toward nearby streets",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d2/ff/3a/1412225794.webp",
+            "alt": "Bedroom with double bed and fitted wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/3a/b6/d2/1411538143.webp",
+            "alt": "Living and dining room with red sofa and dining table",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d8/1e/6a/1411538109.webp",
+            "alt": "Outward view over the street intersection and neighbouring buildings",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "apartment": {
+        "id": "P-13164",
+        "displayName": "P-13164 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": "Calle Azorin 22, Guardamar del Segura",
+        "bedrooms": 1,
+        "sizeSqm": 50,
+        "monthlyRentEur": 600,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Furnished one-bedroom apartment with lift, hot/cold air conditioning and communal pool. Original Sun and Sea reference RENT-4823LSP quotes EUR 600/month and about 50 m2. Matching ROOMRADAR advert 112492174 specifies October-April 2027 and EUR 1,200 deposit. Floor and bathroom details conflict between cross-post sections and need confirmation. Bills and internet not stated. Matching photographs establish a single property identity. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance. Also appears in PAPER 068, 074.",
+        "originalListingUrl": "https://sunandsearealestate.com/property/13164/apartment/winter-rental/spain/alicante/guardamar-del-segura/guardamar-del-segura/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112492174/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/49/6c/e4/1471774887.webp",
+            "alt": "Outdoor pool courtyard and neighbouring buildings",
+            "sourceUrl": "https://www.idealista.com/inmueble/112492174/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/8b/7e/0e/1471774848.webp",
+            "alt": "Bedroom with double bed and window",
+            "sourceUrl": "https://www.idealista.com/inmueble/112492174/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/ac/75/8d/1471774880.webp",
+            "alt": "Equipped kitchen with fridge, hob and washing machine",
+            "sourceUrl": "https://www.idealista.com/inmueble/112492174/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/87/6e/d7/1471774881.webp",
+            "alt": "Living and dining room with balcony window",
+            "sourceUrl": "https://www.idealista.com/inmueble/112492174/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Sun and Sea / matching ROOMRADAR advert on Idealista",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "poolDistance": "P-112306284: No pool advertised; access not verified.\n\nP-13164: Communal pool advertised; winter opening and partner guest access unconfirmed.",
+      "beachDistance": "P-112306284: About 600 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.\n\nP-13164: About 200 m (guesstimate) from the Azorin listing point to the nearby shore; entrance-to-beach route unverified.",
+      "groceriesDistance": "P-112306284: About 210 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.\n\nP-13164: About 900 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.",
+      "cafesDistance": "P-112306284: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified.\n\nP-13164: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified."
+    },
+    {
+      "id": "research-112306284-95861879",
+      "rank": 5,
+      "paperId": "P-112306284",
+      "apartmentId": "P-95861879",
+      "title": "PAPER 076 — Guardamar del Segura",
+      "summary": "Two distinct furnished listings with combined quoted base rent of EUR 1075/month.",
+      "status": "provisional",
+      "statusNote": "Full-stay availability is unconfirmed. Seasonal or long-term terms, tenant acceptance, bills and precise locations need confirmation. Quoted base rents alone support the budget arithmetic.",
+      "areas": [
+        "Guardamar del Segura"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1075,
+      "pairWalkingDistance": "About 700 m (guesstimate); public map-point route, not verified door-to-door. Hidden addresses or unresolved buildings make apparent closeness uncertain.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-112306284",
+        "displayName": "P-112306284 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": "Calle Miguel Hernandez 118, Guardamar del Segura",
+        "bedrooms": 2,
+        "sizeSqm": 75,
+        "monthlyRentEur": 450,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "School-season rental, not annual; no explicit teachers-only restriction. Furnished third floor with lift, two bedrooms, terrace, air conditioning and electric heating. Maximum one occupant. Deposit EUR 900. Also for sale. Bills and internet not stated. No pool advertised; a roof photograph does not establish roof access. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance. Also appears in PAPER 073, 074, 075, 076, 077, 078.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112306284/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112306284/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/35/d6/1f/1412225766.webp",
+            "alt": "Balcony with table, chairs, plants and view toward nearby streets",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d2/ff/3a/1412225794.webp",
+            "alt": "Bedroom with double bed and fitted wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/3a/b6/d2/1411538143.webp",
+            "alt": "Living and dining room with red sofa and dining table",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d8/1e/6a/1411538109.webp",
+            "alt": "Outward view over the street intersection and neighbouring buildings",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "apartment": {
+        "id": "P-95861879",
+        "displayName": "P-95861879 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": null,
+        "bedrooms": 2,
+        "sizeSqm": 60,
+        "monthlyRentEur": 625,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Long-term rental; winter-only acceptance is unconfirmed. Furnished two-bedroom apartment, second floor with lift, balcony and hot/cold air conditioning. Deposit EUR 625. No pets. Bills and internet not stated. No pool advertised. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Exact address withheld or building unresolved; map distances use an approximate neighbourhood anchor and closeness remains unconfirmed.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/95861879/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/95861879/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/43/03/b2/930218044.webp",
+            "alt": "Balcony outward view toward street and neighbouring buildings",
+            "sourceUrl": "https://www.idealista.com/inmueble/95861879/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/ab/2e/28/930218263.webp",
+            "alt": "Living room with corner sofa and dining area",
+            "sourceUrl": "https://www.idealista.com/inmueble/95861879/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/46/f8/fb/930218257.webp",
+            "alt": "Bathroom with basin, toilet and bidet",
+            "sourceUrl": "https://www.idealista.com/inmueble/95861879/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/76/e9/76/930218256.webp",
+            "alt": "Kitchen with wooden cupboards, hob and washing machine",
+            "sourceUrl": "https://www.idealista.com/inmueble/95861879/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "poolDistance": "P-112306284: No pool advertised; access not verified.\n\nP-95861879: No pool advertised; access not verified.",
+      "beachDistance": "P-112306284: About 600 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.\n\nP-95861879: About 450 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.",
+      "groceriesDistance": "P-112306284: About 210 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.\n\nP-95861879: About 550 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.",
+      "cafesDistance": "P-112306284: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified.\n\nP-95861879: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified."
+    },
+    {
+      "id": "research-107971610-110500837",
+      "rank": 6,
+      "paperId": "P-107971610",
+      "apartmentId": "P-110500837",
+      "title": "PAPER 070 — Santiago de la Ribera, Murcia",
+      "summary": "Two distinct furnished listings with combined quoted base rent of EUR 1100/month. Longer-walk fallback, beyond the preferred close pairing.",
+      "status": "provisional",
+      "statusNote": "Full-stay availability is unconfirmed. Seasonal or long-term terms, tenant acceptance, bills and precise locations need confirmation. Quoted base rents alone support the budget arithmetic.",
+      "areas": [
+        "Santiago de la Ribera, Murcia"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1100,
+      "pairWalkingDistance": "About 1100 m (guesstimate); public map-point route, not verified door-to-door. Entrance locations remain unverified.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-107971610",
+        "displayName": "P-107971610 - Santiago de la Ribera, Murcia",
+        "area": "Santiago de la Ribera, Murcia",
+        "address": "Calle San Martin de Porres 82, Santiago de la Ribera, San Javier, Murcia",
+        "bedrooms": 1,
+        "sizeSqm": 41,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Annual rental from 2026; acceptance of the requested winter-only stay is unconfirmed. Furnished ground floor, no lift. Internet included; hot/cold air conditioning in the description conflicts with the no-heating feature. Maximum two occupants. Deposit EUR 500. Other bills not stated. No pool advertised. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance. Also appears in PAPER 069, 070, 071.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/107971610/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/107971610/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/31/2a/31/1329858562.webp",
+            "alt": "Building exterior with open staircase and Arcos de Mar 2 entrance",
+            "sourceUrl": "https://www.idealista.com/inmueble/107971610/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/57/de/5c/1329858561.webp",
+            "alt": "Living and dining room with grey sofa and air conditioner",
+            "sourceUrl": "https://www.idealista.com/inmueble/107971610/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/3d/7d/83/1329858573.webp",
+            "alt": "Bedroom with two single beds",
+            "sourceUrl": "https://www.idealista.com/inmueble/107971610/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/8d/8c/fd/1329858549.webp",
+            "alt": "Covered balcony with two chairs and courtyard outlook",
+            "sourceUrl": "https://www.idealista.com/inmueble/107971610/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "apartment": {
+        "id": "P-110500837",
+        "displayName": "P-110500837 - Santiago de la Ribera, Murcia",
+        "area": "Santiago de la Ribera, Murcia",
+        "address": "Calle Padre Juan20, Santiago de la Ribera, San Javier, Murcia",
+        "bedrooms": 1,
+        "sizeSqm": 45,
+        "monthlyRentEur": 600,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Seasonal September 2026-30 May 2027 rental. Furnished second floor without lift, terrace, air conditioning and electric heating. Maximum one occupant. Utilities extra. Deposit conflicts between one month in the description and two months in the price table; amount needs confirmation. Internet not stated. No pool advertised. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/110500837/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/110500837/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/64/c2/68/1458064241.webp",
+            "alt": "Open terrace with outdoor sofa and surrounding rooftop view",
+            "sourceUrl": "https://www.idealista.com/inmueble/110500837/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/93/64/04/1406848712.webp",
+            "alt": "Living room with blue sofa, television and round table",
+            "sourceUrl": "https://www.idealista.com/inmueble/110500837/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/ea/69/60/1458064310.webp",
+            "alt": "Equipped kitchen opening onto terrace",
+            "sourceUrl": "https://www.idealista.com/inmueble/110500837/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/2c/4f/c8/1406848747.webp",
+            "alt": "Bedroom with double bed and window",
+            "sourceUrl": "https://www.idealista.com/inmueble/110500837/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "poolDistance": "P-107971610: No pool advertised; access not verified.\n\nP-110500837: No pool advertised; access not verified.",
+      "beachDistance": "P-107971610: Advertised 100 m to the sea; walking route unverified.\n\nP-110500837: Not verified.",
+      "groceriesDistance": "P-107971610: About 650 m (guesstimate) to Pardo, Calle O'Shea 8; public map-point route, not a verified doorway walk or necessarily the nearest shop.\n\nP-110500837: About 500 m (guesstimate) to Pardo, Calle O'Shea 8; public map-point route, not a verified doorway walk or necessarily the nearest shop.",
+      "cafesDistance": "P-107971610: Not verified.\n\nP-110500837: Not verified."
+    },
+    {
+      "id": "research-107971610-111890947",
+      "rank": 7,
+      "paperId": "P-107971610",
+      "apartmentId": "P-111890947",
+      "title": "PAPER 071 — Santiago de la Ribera, Murcia",
+      "summary": "Two distinct furnished listings with combined quoted base rent of EUR 1100/month.",
+      "status": "provisional",
+      "statusNote": "Full-stay availability is unconfirmed. Seasonal or long-term terms, tenant acceptance, bills and precise locations need confirmation. Quoted base rents alone support the budget arithmetic.",
+      "areas": [
+        "Santiago de la Ribera, Murcia"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1100,
+      "pairWalkingDistance": "About 200 m (guesstimate); public map-point route, not verified door-to-door. Hidden addresses or unresolved buildings make apparent closeness uncertain.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-107971610",
+        "displayName": "P-107971610 - Santiago de la Ribera, Murcia",
+        "area": "Santiago de la Ribera, Murcia",
+        "address": "Calle San Martin de Porres 82, Santiago de la Ribera, San Javier, Murcia",
+        "bedrooms": 1,
+        "sizeSqm": 41,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Annual rental from 2026; acceptance of the requested winter-only stay is unconfirmed. Furnished ground floor, no lift. Internet included; hot/cold air conditioning in the description conflicts with the no-heating feature. Maximum two occupants. Deposit EUR 500. Other bills not stated. No pool advertised. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance. Also appears in PAPER 069, 070, 071.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/107971610/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/107971610/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/31/2a/31/1329858562.webp",
+            "alt": "Building exterior with open staircase and Arcos de Mar 2 entrance",
+            "sourceUrl": "https://www.idealista.com/inmueble/107971610/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/57/de/5c/1329858561.webp",
+            "alt": "Living and dining room with grey sofa and air conditioner",
+            "sourceUrl": "https://www.idealista.com/inmueble/107971610/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/3d/7d/83/1329858573.webp",
+            "alt": "Bedroom with two single beds",
+            "sourceUrl": "https://www.idealista.com/inmueble/107971610/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/8d/8c/fd/1329858549.webp",
+            "alt": "Covered balcony with two chairs and courtyard outlook",
+            "sourceUrl": "https://www.idealista.com/inmueble/107971610/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "apartment": {
+        "id": "P-111890947",
+        "displayName": "P-111890947 - Santiago de la Ribera, Murcia",
+        "area": "Santiago de la Ribera, Murcia",
+        "address": null,
+        "bedrooms": 1,
+        "sizeSqm": 60,
+        "monthlyRentEur": 600,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Seasonal September-May rental, year unspecified. Furnished second floor with lift, air conditioning, no heating and communal pool. Rental-insurance approval requires income/employment evidence; tenant acceptance is unknown. One-month deposit plus one-month guarantee, EUR 1,200 total. Bills and internet not stated. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Exact address withheld or building unresolved; map distances use an approximate neighbourhood anchor and closeness remains unconfirmed.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/111890947/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/111890947/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/35/fb/18/1466607029.webp",
+            "alt": "Communal outdoor swimming pool and garden in the residential courtyard",
+            "sourceUrl": "https://www.idealista.com/inmueble/111890947/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/36/19/b9/1466607250.webp",
+            "alt": "Living room looking toward kitchen breakfast bar",
+            "sourceUrl": "https://www.idealista.com/inmueble/111890947/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/62/1c/28/1466607251.webp",
+            "alt": "Kitchen with hob, oven, washing machine and fridge",
+            "sourceUrl": "https://www.idealista.com/inmueble/111890947/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/90/7b/29/1466607252.webp",
+            "alt": "Bedroom with daybed and ceiling fan",
+            "sourceUrl": "https://www.idealista.com/inmueble/111890947/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "poolDistance": "P-107971610: No pool advertised; access not verified.\n\nP-111890947: Communal pool advertised; winter opening and partner guest access unconfirmed.",
+      "beachDistance": "P-107971610: Advertised 100 m to the sea; walking route unverified.\n\nP-111890947: About 300 m (guesstimate), based on the advertised three streets to the beach and the Playa Pescador map area; exact address hidden.",
+      "groceriesDistance": "P-107971610: About 650 m (guesstimate) to Pardo, Calle O'Shea 8; public map-point route, not a verified doorway walk or necessarily the nearest shop.\n\nP-111890947: About 650 m (guesstimate) to Pardo, Calle O'Shea 8; public map-point route, not a verified doorway walk or necessarily the nearest shop.",
+      "cafesDistance": "P-107971610: Not verified.\n\nP-111890947: Not verified."
+    },
+    {
+      "id": "research-112306284-112335944",
+      "rank": 8,
+      "paperId": "P-112306284",
+      "apartmentId": "P-112335944",
+      "title": "PAPER 077 — Guardamar del Segura",
+      "summary": "Two distinct furnished listings with combined quoted base rent of EUR 1100/month.",
+      "status": "provisional",
+      "statusNote": "Full-stay availability is unconfirmed. Seasonal or long-term terms, tenant acceptance, bills and precise locations need confirmation. Quoted base rents alone support the budget arithmetic.",
+      "areas": [
+        "Guardamar del Segura"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1100,
+      "pairWalkingDistance": "About 500 m (guesstimate); public map-point route, not verified door-to-door. Entrance locations remain unverified.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-112306284",
+        "displayName": "P-112306284 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": "Calle Miguel Hernandez 118, Guardamar del Segura",
+        "bedrooms": 2,
+        "sizeSqm": 75,
+        "monthlyRentEur": 450,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "School-season rental, not annual; no explicit teachers-only restriction. Furnished third floor with lift, two bedrooms, terrace, air conditioning and electric heating. Maximum one occupant. Deposit EUR 900. Also for sale. Bills and internet not stated. No pool advertised; a roof photograph does not establish roof access. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance. Also appears in PAPER 073, 074, 075, 076, 077, 078.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112306284/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112306284/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/35/d6/1f/1412225766.webp",
+            "alt": "Balcony with table, chairs, plants and view toward nearby streets",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d2/ff/3a/1412225794.webp",
+            "alt": "Bedroom with double bed and fitted wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/3a/b6/d2/1411538143.webp",
+            "alt": "Living and dining room with red sofa and dining table",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d8/1e/6a/1411538109.webp",
+            "alt": "Outward view over the street intersection and neighbouring buildings",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "apartment": {
+        "id": "P-112335944",
+        "displayName": "P-112335944 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": "Calle Era de Madaleneta 17, Guardamar del Segura",
+        "bedrooms": 1,
+        "sizeSqm": 64,
+        "monthlyRentEur": 650,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Seasonal September 2026-July 2027 rental. Furnished third floor with lift, one bedroom, west-facing terrace and air conditioning throughout. Advertised 64 m2 built; usable area is a different measurement. Deposit EUR 1,300; solvency evidence required and tenant acceptance unknown. Bills, internet and heating not stated. No pool advertised. Photos contain stored belongings; current cleared condition is unconfirmed. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112335944/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112335944/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/81/29/66/1466313259.webp",
+            "alt": "Balcony with outward view, air-conditioning unit and stored household items",
+            "sourceUrl": "https://www.idealista.com/inmueble/112335944/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/21/2d/36/1466313234.webp",
+            "alt": "Living and dining room with sofa and kitchen beyond",
+            "sourceUrl": "https://www.idealista.com/inmueble/112335944/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/5e/25/98/1466313254.webp",
+            "alt": "Bathroom with vanity basin and screened bath",
+            "sourceUrl": "https://www.idealista.com/inmueble/112335944/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/c7/45/08/1466313270.webp",
+            "alt": "Bedroom with double bed, ceiling fan and personal belongings",
+            "sourceUrl": "https://www.idealista.com/inmueble/112335944/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "poolDistance": "P-112306284: No pool advertised; access not verified.\n\nP-112335944: No pool advertised; access not verified.",
+      "beachDistance": "P-112306284: About 600 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.\n\nP-112335944: About 1000 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.",
+      "groceriesDistance": "P-112306284: About 210 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.\n\nP-112335944: About 450 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.",
+      "cafesDistance": "P-112306284: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified.\n\nP-112335944: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified."
+    },
+    {
+      "id": "research-112306284-112616908",
+      "rank": 9,
+      "paperId": "P-112306284",
+      "apartmentId": "P-112616908",
+      "title": "PAPER 078 — Guardamar del Segura",
+      "summary": "Two distinct furnished listings with combined quoted base rent of EUR 1100/month. Longer-walk fallback, beyond the preferred close pairing.",
+      "status": "provisional",
+      "statusNote": "Full-stay availability is unconfirmed. Seasonal or long-term terms, tenant acceptance, bills and precise locations need confirmation. Quoted base rents alone support the budget arithmetic.",
+      "areas": [
+        "Guardamar del Segura"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1100,
+      "pairWalkingDistance": "About 1800 m (guesstimate); public map-point route, not verified door-to-door. Hidden addresses or unresolved buildings make apparent closeness uncertain.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-112306284",
+        "displayName": "P-112306284 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": "Calle Miguel Hernandez 118, Guardamar del Segura",
+        "bedrooms": 2,
+        "sizeSqm": 75,
+        "monthlyRentEur": 450,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "School-season rental, not annual; no explicit teachers-only restriction. Furnished third floor with lift, two bedrooms, terrace, air conditioning and electric heating. Maximum one occupant. Deposit EUR 900. Also for sale. Bills and internet not stated. No pool advertised; a roof photograph does not establish roof access. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance. Also appears in PAPER 073, 074, 075, 076, 077, 078.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112306284/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112306284/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/35/d6/1f/1412225766.webp",
+            "alt": "Balcony with table, chairs, plants and view toward nearby streets",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d2/ff/3a/1412225794.webp",
+            "alt": "Bedroom with double bed and fitted wardrobe",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/3a/b6/d2/1411538143.webp",
+            "alt": "Living and dining room with red sofa and dining table",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d8/1e/6a/1411538109.webp",
+            "alt": "Outward view over the street intersection and neighbouring buildings",
+            "sourceUrl": "https://www.idealista.com/inmueble/112306284/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "apartment": {
+        "id": "P-112616908",
+        "displayName": "P-112616908 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": "Avenida del Puerto 1, Guardamar del Segura (advertised address; exact building unverified)",
+        "bedrooms": 1,
+        "sizeSqm": 52,
+        "monthlyRentEur": 650,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Long-duration furnished one-bedroom apartment, fifth floor with lift, communal pool and parking included. Winter-only acceptance is unconfirmed. Deposit EUR 650. Bills, internet, heating and air conditioning not stated. Advertised address is approximate: the exact building and entrance are unresolved. Longer-walk fallback. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Exact address withheld or building unresolved; map distances use an approximate neighbourhood anchor and closeness remains unconfirmed.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112616908/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112616908/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/5f/68/0a/1476039593.webp",
+            "alt": "Balcony with round table, chairs and view over neighbouring buildings",
+            "sourceUrl": "https://www.idealista.com/inmueble/112616908/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL_TOP-L-P/0/id.pro.es.image.master/11/4c/35/1476039591.webp",
+            "alt": "Bedroom with double bed and burgundy feature wall",
+            "sourceUrl": "https://www.idealista.com/inmueble/112616908/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/dd/07/32/1476039715.webp",
+            "alt": "Living and dining area with sofa and equipped kitchen beyond",
+            "sourceUrl": "https://www.idealista.com/inmueble/112616908/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/92/a5/13/1476039623.webp",
+            "alt": "Bathroom with bath, basin and toilet",
+            "sourceUrl": "https://www.idealista.com/inmueble/112616908/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/a6/1e/22/1476039624.webp",
+            "alt": "Outdoor communal pool courtyard pictured in use; winter opening unverified",
+            "sourceUrl": "https://www.idealista.com/inmueble/112616908/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "poolDistance": "P-112306284: No pool advertised; access not verified.\n\nP-112616908: Communal pool advertised; winter opening and partner guest access unconfirmed.",
+      "beachDistance": "P-112306284: About 600 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.\n\nP-112616908: Not verified.",
+      "groceriesDistance": "P-112306284: About 210 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.\n\nP-112616908: Not verified.",
+      "cafesDistance": "P-112306284: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified.\n\nP-112616908: Not verified."
+    },
+    {
+      "id": "research-112374888-112456704",
+      "rank": 10,
+      "paperId": "P-112456704",
+      "apartmentId": "P-112374888",
+      "title": "PAPER 072 — Guardamar del Segura",
+      "summary": "Two distinct furnished listings with combined quoted base rent of EUR 1100/month.",
+      "status": "provisional",
+      "statusNote": "Full-stay availability is unconfirmed. Seasonal or long-term terms, tenant acceptance, bills and precise locations need confirmation. Quoted base rents alone support the budget arithmetic.",
+      "areas": [
+        "Guardamar del Segura"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1100,
+      "pairWalkingDistance": "About 400 m (guesstimate); public map-point route, not verified door-to-door. Hidden addresses or unresolved buildings make apparent closeness uncertain.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-112456704",
+        "displayName": "P-112456704 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 50,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Long-term furnished studio with sofa bed and folding bed; no separate bedroom. Second floor with lift, air conditioning and terrace. Winter-only acceptance is unconfirmed. Deposit EUR 500; optional garage EUR 50/month extra. No pets. Bills, internet and heating not stated. No pool advertised. Cross-post 101043482 is the same home, not another apartment. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Exact address withheld or building unresolved; map distances use an approximate neighbourhood anchor and closeness remains unconfirmed. Also appears in PAPER 068, 072, 073.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112456704/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112456704/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/b1/dc/0f/1476619293.webp",
+            "alt": "Balcony with striped awning and view of neighbouring building",
+            "sourceUrl": "https://www.idealista.com/inmueble/112456704/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/95/9a/5b/1476619289.webp",
+            "alt": "Studio living and sleeping area with sofa-bed and balcony access",
+            "sourceUrl": "https://www.idealista.com/inmueble/112456704/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/ae/ee/4f/1476619194.webp",
+            "alt": "Bathroom with bath, toilet and bidet",
+            "sourceUrl": "https://www.idealista.com/inmueble/112456704/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/c6/95/86/1476619305.webp",
+            "alt": "Kitchen with hob, fridge, microwave and washing machine",
+            "sourceUrl": "https://www.idealista.com/inmueble/112456704/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "apartment": {
+        "id": "P-112374888",
+        "displayName": "P-112374888 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": "Plaza Porticada area, exact address withheld",
+        "bedrooms": 1,
+        "sizeSqm": 55,
+        "monthlyRentEur": 600,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Long-term rental from September; winter-only acceptance is unconfirmed. Furnished first floor with lift, one bedroom, two bathrooms, living-room air conditioning and utility room. Deposit EUR 600. Bills, internet and heating not stated. No pool advertised. Gallery includes different furnishing arrangements; current exact contents need confirmation. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Exact address withheld or building unresolved; map distances use an approximate neighbourhood anchor and closeness remains unconfirmed. Also appears in PAPER 072, 075.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112374888/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112374888/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/99/87/0e/1476970067.webp",
+            "alt": "Outward view through dining window toward trees and surrounding buildings",
+            "sourceUrl": "https://www.idealista.com/inmueble/112374888/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/23/62/04/1476970066.webp",
+            "alt": "Living room with grey sofa, coffee table and dining area",
+            "sourceUrl": "https://www.idealista.com/inmueble/112374888/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/d9/72/bb/1476970070.webp",
+            "alt": "Equipped kitchen with washing machine and hob",
+            "sourceUrl": "https://www.idealista.com/inmueble/112374888/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/85/ce/48/1476970071.webp",
+            "alt": "Bedroom with double bed and bedside lights",
+            "sourceUrl": "https://www.idealista.com/inmueble/112374888/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "poolDistance": "P-112456704: No pool advertised; access not verified.\n\nP-112374888: No pool advertised; access not verified.",
+      "beachDistance": "P-112456704: About 300 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.\n\nP-112374888: About 300 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.",
+      "groceriesDistance": "P-112456704: About 500 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.\n\nP-112374888: About 500 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.",
+      "cafesDistance": "P-112456704: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified.\n\nP-112374888: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified."
+    },
+    {
+      "id": "research-112456704-13164",
+      "rank": 11,
+      "paperId": "P-112456704",
+      "apartmentId": "P-13164",
+      "title": "PAPER 068 — Guardamar del Segura",
+      "summary": "Two distinct furnished listings with combined quoted base rent of EUR 1100/month.",
+      "status": "provisional",
+      "statusNote": "Full-stay availability is unconfirmed. Seasonal or long-term terms, tenant acceptance, bills and precise locations need confirmation. Quoted base rents alone support the budget arithmetic.",
+      "areas": [
+        "Guardamar del Segura"
+      ],
+      "beachDistanceMinutes": null,
+      "combinedMonthlyRentEur": 1100,
+      "pairWalkingDistance": "About 500 m (guesstimate); public map-point route, not verified door-to-door. Hidden addresses or unresolved buildings make apparent closeness uncertain.",
+      "pairWalkingTime": "Not assessed; compare approximate metres only.",
+      "paper": {
+        "id": "P-112456704",
+        "displayName": "P-112456704 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": null,
+        "bedrooms": 0,
+        "sizeSqm": 50,
+        "monthlyRentEur": 500,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Long-term furnished studio with sofa bed and folding bed; no separate bedroom. Second floor with lift, air conditioning and terrace. Winter-only acceptance is unconfirmed. Deposit EUR 500; optional garage EUR 50/month extra. No pets. Bills, internet and heating not stated. No pool advertised. Cross-post 101043482 is the same home, not another apartment. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Exact address withheld or building unresolved; map distances use an approximate neighbourhood anchor and closeness remains unconfirmed. Also appears in PAPER 068, 072, 073.",
+        "originalListingUrl": "https://www.idealista.com/inmueble/112456704/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112456704/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/b1/dc/0f/1476619293.webp",
+            "alt": "Balcony with striped awning and view of neighbouring building",
+            "sourceUrl": "https://www.idealista.com/inmueble/112456704/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/95/9a/5b/1476619289.webp",
+            "alt": "Studio living and sleeping area with sofa-bed and balcony access",
+            "sourceUrl": "https://www.idealista.com/inmueble/112456704/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/ae/ee/4f/1476619194.webp",
+            "alt": "Bathroom with bath, toilet and bidet",
+            "sourceUrl": "https://www.idealista.com/inmueble/112456704/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-L/0/id.pro.es.image.master/c6/95/86/1476619305.webp",
+            "alt": "Kitchen with hob, fridge, microwave and washing machine",
+            "sourceUrl": "https://www.idealista.com/inmueble/112456704/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Idealista original advertiser",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "apartment": {
+        "id": "P-13164",
+        "displayName": "P-13164 - Guardamar del Segura",
+        "area": "Guardamar del Segura",
+        "address": "Calle Azorin 22, Guardamar del Segura",
+        "bedrooms": 1,
+        "sizeSqm": 50,
+        "monthlyRentEur": 600,
+        "furnished": true,
+        "availabilityStatus": "unknown",
+        "availabilityNote": "Furnished one-bedroom apartment with lift, hot/cold air conditioning and communal pool. Original Sun and Sea reference RENT-4823LSP quotes EUR 600/month and about 50 m2. Matching ROOMRADAR advert 112492174 specifies October-April 2027 and EUR 1,200 deposit. Floor and bathroom details conflict between cross-post sections and need confirmation. Bills and internet not stated. Matching photographs establish a single property identity. Full requested stay, 5 November 2026-28 April 2027, is unconfirmed. Map distances use the public listing/address point, not a verified entrance. Also appears in PAPER 068, 074.",
+        "originalListingUrl": "https://sunandsearealestate.com/property/13164/apartment/winter-rental/spain/alicante/guardamar-del-segura/guardamar-del-segura/",
+        "photoSourceUrl": "https://www.idealista.com/inmueble/112492174/",
+        "photoAttribution": "Original advertiser gallery on Idealista",
+        "photos": [
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/49/6c/e4/1471774887.webp",
+            "alt": "Outdoor pool courtyard and neighbouring buildings",
+            "sourceUrl": "https://www.idealista.com/inmueble/112492174/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/8b/7e/0e/1471774848.webp",
+            "alt": "Bedroom with double bed and window",
+            "sourceUrl": "https://www.idealista.com/inmueble/112492174/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/ac/75/8d/1471774880.webp",
+            "alt": "Equipped kitchen with fridge, hob and washing machine",
+            "sourceUrl": "https://www.idealista.com/inmueble/112492174/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          },
+          {
+            "url": "https://img4.idealista.com/blur/WEB_DETAIL-XL-P/0/id.pro.es.image.master/87/6e/d7/1471774881.webp",
+            "alt": "Living and dining room with balcony window",
+            "sourceUrl": "https://www.idealista.com/inmueble/112492174/",
+            "attribution": "Original advertiser gallery on Idealista",
+            "aiEdited": false
+          }
+        ],
+        "sourceName": "Sun and Sea / matching ROOMRADAR advert on Idealista",
+        "sourceCheckedAt": "2026-09-24"
+      },
+      "poolDistance": "P-112456704: No pool advertised; access not verified.\n\nP-13164: Communal pool advertised; winter opening and partner guest access unconfirmed.",
+      "beachDistance": "P-112456704: About 300 m (guesstimate) to the Paraguay/Avenida Libertad waterfront access; approximate location, not verified entrance-to-sand or necessarily closest access.\n\nP-13164: About 200 m (guesstimate) from the Azorin listing point to the nearby shore; entrance-to-beach route unverified.",
+      "groceriesDistance": "P-112456704: About 500 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.\n\nP-13164: About 900 m (guesstimate) to Mercadona, Avenida Mediterraneo; public map-point route, not a verified doorway walk or necessarily the nearest shop.",
+      "cafesDistance": "P-112456704: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified.\n\nP-13164: About 200 m (guesstimate) from the mapped central commercial streets; exact cafe and entrance route unverified."
+    }
+  ],
+  "budgetExceptions": []
+}
