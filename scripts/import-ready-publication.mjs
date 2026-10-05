@@ -6,6 +6,7 @@ const repository = process.env.GITHUB_REPOSITORY;
 const importUrl = process.env.APARTMENT_IMPORT_URL;
 const importToken = process.env.APARTMENT_IMPORT_TOKEN;
 const githubToken = process.env.GITHUB_TOKEN;
+const requestedIssueNumber = process.env.APARTMENT_ISSUE_NUMBER;
 
 if (!repository || !importUrl || !importToken || !githubToken) {
   throw new Error("Required importer configuration is missing");
@@ -70,7 +71,17 @@ const issuesResponse = await github(
   "/repos/" + repository + "/issues?state=open&labels=" +
     readyLabel + "&sort=created&direction=asc&per_page=20",
 );
-const issues = (await issuesResponse.json()).filter((issue) => !issue.pull_request);
+let issues = (await issuesResponse.json()).filter((issue) => !issue.pull_request);
+
+// Manual Render cutovers may replay one already-processed issue against the
+// new backend. This is intentionally opt-in and never used by the scheduled
+// ready-label workflow.
+if (requestedIssueNumber) {
+  const replayResponse = await github("/repos/" + repository + "/issues/" + requestedIssueNumber);
+  if (!replayResponse.ok) throw new Error("Unable to load requested replay issue");
+  const replayIssue = await replayResponse.json();
+  if (!replayIssue.pull_request) issues = [replayIssue];
+}
 
 if (issues.length === 0) {
   console.log("No apartment research submission is awaiting import.");
@@ -86,7 +97,8 @@ for (const issue of issues) {
     const refreshed = await github("/repos/" + repository + "/issues/" + issue.number);
     if (!refreshed.ok) throw new Error("Unable to refresh queued issue");
     const current = await refreshed.json();
-    if (current.state !== "open" || !current.labels.some(label => label.name === readyLabel)) continue;
+    if ((!requestedIssueNumber && current.state !== "open") ||
+        !current.labels.some(label => label.name === readyLabel)) continue;
     publication = await resolvePublication(current.body, repository, github);
   } catch (error) {
     if (!(error instanceof PublicationInputError)) throw error;

@@ -7,6 +7,11 @@ on:
     - cron: "0 9 * * *"
     - cron: "0 10 * * *"
   workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Optional closed issue number to replay during a Render cutover"
+        required: false
+        type: string
 
 permissions:
   contents: read
@@ -45,7 +50,8 @@ jobs:
         if: steps.schedule.outputs.run == 'true'
         env:
           APARTMENT_IMPORT_TOKEN: ${{ secrets.APARTMENT_IMPORT_TOKEN }}
-          APARTMENT_IMPORT_URL: https://pricey-bold-utility--yonis11.replit.app/api/apartment-pairs/import
+          APARTMENT_IMPORT_URL: https://daf-web.onrender.com/api/apartment-pairs/import
+          APARTMENT_ISSUE_NUMBER: ${{ inputs.issue_number }}
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node scripts/import-ready-publication.mjs
