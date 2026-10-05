@@ -97,7 +97,8 @@ for (const issue of issues) {
     const refreshed = await github("/repos/" + repository + "/issues/" + issue.number);
     if (!refreshed.ok) throw new Error("Unable to refresh queued issue");
     const current = await refreshed.json();
-    if (current.state !== "open" || !current.labels.some(label => label.name === readyLabel)) continue;
+    if ((!requestedIssueNumber && current.state !== "open") ||
+        !current.labels.some(label => label.name === readyLabel)) continue;
     publication = await resolvePublication(current.body, repository, github);
   } catch (error) {
     if (!(error instanceof PublicationInputError)) throw error;
