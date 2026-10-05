@@ -1,6 +1,6 @@
-# Spain Trip Apartment Research Inbox
+# Dual Apartment Finder research inbox
 
-This private repository is the handoff point between scheduled ChatGPT apartment research and the Alicante Rental Pairs site.
+This repository is the handoff point between scheduled apartment research and the Dual Apartment Finder service on Render.
 
 ## Current automation
 
@@ -11,7 +11,7 @@ This private repository is the handoff point between scheduled ChatGPT apartment
 5. `scripts/import-ready-publication.mjs` submits queued publications to the authenticated production import API.
 6. The API validates and atomically stores accepted publications in PostgreSQL. Invalid submissions leave the current live publication unchanged and receive `import-rejected`.
 
-The first real queued submission was imported successfully on 21 September 2026 and the live API began serving two provisional EUR 1,100 Guardamar pairs.
+The production import API is `https://daf-web.onrender.com/api/apartment-pairs/import`. Replit is not part of the live import path.
 
 ## Repository names
 
